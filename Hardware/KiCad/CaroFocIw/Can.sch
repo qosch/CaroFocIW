@@ -1,0 +1,127 @@
+EESchema Schematic File Version 4
+LIBS:CaroFocIw-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 4700 3700 0    50   Input ~ 0
+CanTx
+Text HLabel 4700 3800 0    50   Output ~ 0
+CanRx
+Wire Wire Line
+	4700 3700 5000 3700
+Wire Wire Line
+	4700 3800 5000 3800
+Text HLabel 6500 3750 2    50   BiDi ~ 0
+CanH
+Text HLabel 6500 4050 2    50   BiDi ~ 0
+CanL
+$Comp
+L power:GND #PWR07
+U 1 1 5C35EF73
+P 5500 4300
+F 0 "#PWR07" H 5500 4050 50  0001 C CNN
+F 1 "GND" H 5505 4127 50  0000 C CNN
+F 2 "" H 5500 4300 50  0001 C CNN
+F 3 "" H 5500 4300 50  0001 C CNN
+	1    5500 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR06
+U 1 1 5C35EF9E
+P 5500 3200
+F 0 "#PWR06" H 5500 3050 50  0001 C CNN
+F 1 "+3.3V" H 5515 3373 50  0000 C CNN
+F 2 "" H 5500 3200 50  0001 C CNN
+F 3 "" H 5500 3200 50  0001 C CNN
+	1    5500 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR08
+U 1 1 5C35EFC4
+P 6000 3200
+F 0 "#PWR08" H 6000 3050 50  0001 C CNN
+F 1 "+3.3V" H 6015 3373 50  0000 C CNN
+F 2 "" H 6000 3200 50  0001 C CNN
+F 3 "" H 6000 3200 50  0001 C CNN
+	1    6000 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5C35EFDA
+P 6000 3500
+F 0 "#PWR09" H 6000 3250 50  0001 C CNN
+F 1 "GND" H 6005 3327 50  0000 C CNN
+F 2 "" H 6000 3500 50  0001 C CNN
+F 3 "" H 6000 3500 50  0001 C CNN
+	1    6000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5C35EFFE
+P 6000 3350
+F 0 "C1" H 6115 3396 50  0000 L CNN
+F 1 "100n" H 6115 3305 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6038 3200 50  0001 C CNN
+F 3 "~" H 6000 3350 50  0001 C CNN
+	1    6000 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3200 5500 3500
+$Comp
+L Interface_CAN_LIN:TCAN332 U1
+U 1 1 5C3677CC
+P 5500 3900
+F 0 "U1" H 5500 4478 50  0000 C CNN
+F 1 "TCAN332" H 5500 4387 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-8" H 5500 3400 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tcan337.pdf" H 5500 3900 50  0001 C CNN
+	1    5500 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5C37606B
+P 6200 3900
+F 0 "R1" H 6270 3991 50  0000 L CNN
+F 1 "120" H 6270 3900 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 6130 3900 50  0001 C CNN
+F 3 "~" H 6200 3900 50  0001 C CNN
+F 4 "DNP" H 6270 3809 50  0000 L CNN "Place"
+	1    6200 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3800 6100 3800
+Wire Wire Line
+	6100 3800 6100 3750
+Wire Wire Line
+	6100 3750 6200 3750
+Wire Wire Line
+	6000 4000 6100 4000
+Wire Wire Line
+	6100 4000 6100 4050
+Wire Wire Line
+	6100 4050 6200 4050
+Wire Wire Line
+	6200 3750 6500 3750
+Connection ~ 6200 3750
+Wire Wire Line
+	6200 4050 6500 4050
+Connection ~ 6200 4050
+$EndSCHEMATC

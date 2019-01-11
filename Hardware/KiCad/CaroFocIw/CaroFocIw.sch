@@ -1,0 +1,477 @@
+EESchema Schematic File Version 4
+LIBS:CaroFocIw-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 3100 4300 1100 300 
+U 5C35C247
+F0 "Can" 50
+F1 "Can.sch" 50
+F2 "CanTx" I L 3100 4400 50 
+F3 "CanRx" O L 3100 4500 50 
+F4 "CanH" B R 4200 4400 50 
+F5 "CanL" B R 4200 4500 50 
+$EndSheet
+$Sheet
+S 1900 1300 1100 3300
+U 5C35C260
+F0 "MCU" 50
+F1 "STM32F4_64LQFP.sch" 50
+F2 "CanRx" I R 3000 4500 50 
+F3 "CanTx" O R 3000 4400 50 
+F4 "CurrentU" I R 3000 1900 50 
+F5 "CurrentV" I R 3000 2000 50 
+F6 "CurrentW" I R 3000 2100 50 
+F7 "LogicUH" O R 3000 2800 50 
+F8 "LogicVH" O R 3000 3050 50 
+F9 "LogicWH" O R 3000 3300 50 
+F10 "LogicUL" O R 3000 2900 50 
+F11 "LogicVL" O R 3000 3150 50 
+F12 "LogicWL" O R 3000 3400 50 
+F13 "EncoderSclk" O R 3000 1600 50 
+F14 "EncoderMiso" I R 3000 1500 50 
+F15 "EncoderMosi" O R 3000 1400 50 
+F16 "~EncoderCs" O R 3000 1700 50 
+F17 "GateDriverEnable" O R 3000 2350 50 
+F18 "~GateDriverErr1" I R 3000 2500 50 
+F19 "~GateDriverErr2" I R 3000 2600 50 
+F20 "SWDIO" I L 1900 1700 50 
+F21 "SWCLK" I L 1900 1600 50 
+F22 "~RST" I L 1900 1400 50 
+$EndSheet
+$Sheet
+S 5700 2300 1100 1900
+U 5C35C28F
+F0 "GateDriver" 50
+F1 "GateDriver.sch" 50
+F2 "LogicUL" I L 5700 2900 50 
+F3 "~LogicUH" I L 5700 2800 50 
+F4 "LogicVL" I L 5700 3150 50 
+F5 "~LogicVH" I L 5700 3050 50 
+F6 "LogicWL" I L 5700 3400 50 
+F7 "~LogicWH" I L 5700 3300 50 
+F8 "LogicGdEna" I L 5700 2350 50 
+F9 "~LogicGdErr1" O L 5700 2500 50 
+F10 "~LogicGdErr2" O L 5700 2600 50 
+F11 "SourceUH" O R 6800 2500 50 
+F12 "SourceVH" O R 6800 3200 50 
+F13 "SourceWH" O R 6800 3900 50 
+F14 "SourceUL" O R 6800 2700 50 
+F15 "SourceVL" O R 6800 3400 50 
+F16 "SourceWL" O R 6800 4100 50 
+F17 "GateWL" O R 6800 4000 50 
+F18 "GateVL" O R 6800 3300 50 
+F19 "GateUL" O R 6800 2600 50 
+F20 "GateWH" O R 6800 3800 50 
+F21 "GateVH" O R 6800 3100 50 
+F22 "GateUH" O R 6800 2400 50 
+$EndSheet
+$Sheet
+S 6900 2300 1100 500 
+U 5C35C41B
+F0 "HalfBridgeU" 50
+F1 "HalfBridge.sch" 50
+F2 "PowerPhase" O R 8000 2500 50 
+F3 "GateH" I L 6900 2400 50 
+F4 "GateL" I L 6900 2600 50 
+F5 "SourceL" I L 6900 2700 50 
+F6 "SourceH" I L 6900 2500 50 
+$EndSheet
+$Sheet
+S 8800 2300 1100 500 
+U 5C35C464
+F0 "CurrentSensingU" 50
+F1 "CurrentSensing.sch" 50
+F2 "PhaseIn" I L 8800 2500 50 
+F3 "PhaseOut" O R 9900 2500 50 
+F4 "AnalogOut" O L 8800 2400 50 
+F5 "AGND" I L 8800 2700 50 
+F6 "3.3VA" I L 8800 2600 50 
+$EndSheet
+$Sheet
+S 3100 1300 1100 500 
+U 5C35C467
+F0 "Encoder" 50
+F1 "AS5047D.sch" 50
+F2 "EncoderMosi" I L 3100 1400 50 
+F3 "EncoderMiso" O L 3100 1500 50 
+F4 "EncoderSclk" I L 3100 1600 50 
+F5 "~EncoderCs" I L 3100 1700 50 
+$EndSheet
+$Sheet
+S 6900 3000 1100 500 
+U 5C3602D5
+F0 "HalfBridgeV" 50
+F1 "HalfBridge.sch" 50
+F2 "PowerPhase" O R 8000 3200 50 
+F3 "GateH" I L 6900 3100 50 
+F4 "GateL" I L 6900 3300 50 
+F5 "SourceL" I L 6900 3400 50 
+F6 "SourceH" I L 6900 3200 50 
+$EndSheet
+$Sheet
+S 6900 3700 1100 500 
+U 5C3602E3
+F0 "HalfBridgeW" 50
+F1 "HalfBridge.sch" 50
+F2 "PowerPhase" O R 8000 3900 50 
+F3 "GateH" I L 6900 3800 50 
+F4 "GateL" I L 6900 4000 50 
+F5 "SourceL" I L 6900 4100 50 
+F6 "SourceH" I L 6900 3900 50 
+$EndSheet
+$Sheet
+S 8800 3000 1100 500 
+U 5C36048B
+F0 "CurrentSensingV" 50
+F1 "CurrentSensing.sch" 50
+F2 "PhaseIn" I L 8800 3200 50 
+F3 "PhaseOut" O R 9900 3200 50 
+F4 "AnalogOut" O L 8800 3100 50 
+F5 "AGND" I L 8800 3400 50 
+F6 "3.3VA" I L 8800 3300 50 
+$EndSheet
+$Sheet
+S 8800 3700 1100 500 
+U 5C360499
+F0 "CurrentsensingW" 50
+F1 "CurrentSensing.sch" 50
+F2 "PhaseIn" I L 8800 3900 50 
+F3 "PhaseOut" O R 9900 3900 50 
+F4 "AnalogOut" O L 8800 3800 50 
+F5 "AGND" I L 8800 4100 50 
+F6 "3.3VA" I L 8800 4000 50 
+$EndSheet
+Wire Wire Line
+	6800 2400 6900 2400
+Wire Wire Line
+	6800 2500 6900 2500
+Wire Wire Line
+	6800 2600 6900 2600
+Wire Wire Line
+	6800 2700 6900 2700
+Wire Wire Line
+	6800 3100 6900 3100
+Wire Wire Line
+	6800 3200 6900 3200
+Wire Wire Line
+	6800 3300 6900 3300
+Wire Wire Line
+	6800 3400 6900 3400
+Wire Wire Line
+	6800 3800 6900 3800
+Wire Wire Line
+	6800 3900 6900 3900
+Wire Wire Line
+	6800 4000 6900 4000
+Wire Wire Line
+	6800 4100 6900 4100
+Wire Wire Line
+	8100 2100 8100 3800
+$Sheet
+S 1900 5400 1100 500 
+U 5C35F725
+F0 "PowerSupply" 50
+F1 "TPS560430X3F.sch" 50
+$EndSheet
+Wire Wire Line
+	8150 2000 8150 3100
+Wire Wire Line
+	8200 1900 8200 2400
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 5C36B3B5
+P 10100 2500
+F 0 "J3" H 10180 2542 50  0000 L CNN
+F 1 "Conn_01x01" H 10180 2451 50  0000 L CNN
+F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 10100 2500 50  0001 C CNN
+F 3 "~" H 10100 2500 50  0001 C CNN
+	1    10100 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 5C36B407
+P 10100 3200
+F 0 "J4" H 10180 3242 50  0000 L CNN
+F 1 "Conn_01x01" H 10180 3151 50  0000 L CNN
+F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 10100 3200 50  0001 C CNN
+F 3 "~" H 10100 3200 50  0001 C CNN
+	1    10100 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J5
+U 1 1 5C36B447
+P 10100 3900
+F 0 "J5" H 10180 3942 50  0000 L CNN
+F 1 "Conn_01x01" H 10180 3851 50  0000 L CNN
+F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 10100 3900 50  0001 C CNN
+F 3 "~" H 10100 3900 50  0001 C CNN
+	1    10100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5C370EAF
+P 4100 5550
+F 0 "H2" H 4200 5601 50  0000 L CNN
+F 1 "MountingHole_Pad" H 4200 5510 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 4100 5550 50  0001 C CNN
+F 3 "~" H 4100 5550 50  0001 C CNN
+	1    4100 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5C370F0F
+P 5200 5550
+F 0 "H3" H 5300 5601 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5300 5510 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 5200 5550 50  0001 C CNN
+F 3 "~" H 5200 5550 50  0001 C CNN
+	1    5200 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5C370F3F
+P 3200 5550
+F 0 "H1" H 3300 5601 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3300 5510 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3200 5550 50  0001 C CNN
+F 3 "~" H 3200 5550 50  0001 C CNN
+	1    3200 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR03
+U 1 1 5C3710BD
+P 5200 5650
+F 0 "#PWR03" H 5200 5450 50  0001 C CNN
+F 1 "GNDPWR" H 5204 5496 50  0000 C CNN
+F 2 "" H 5200 5600 50  0001 C CNN
+F 3 "" H 5200 5600 50  0001 C CNN
+	1    5200 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5C374988
+P 6100 5550
+F 0 "H4" H 6200 5601 50  0000 L CNN
+F 1 "MountingHole_Pad" H 6200 5510 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 6100 5550 50  0001 C CNN
+F 3 "~" H 6100 5550 50  0001 C CNN
+	1    6100 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR04
+U 1 1 5C3749D8
+P 6100 5650
+F 0 "#PWR04" H 6100 5450 50  0001 C CNN
+F 1 "GNDPWR" H 6104 5496 50  0000 C CNN
+F 2 "" H 6100 5600 50  0001 C CNN
+F 3 "" H 6100 5600 50  0001 C CNN
+	1    6100 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 2800 5600 2800
+Wire Wire Line
+	5700 2900 5600 2900
+Wire Wire Line
+	5700 3050 5600 3050
+Wire Wire Line
+	5700 3150 5600 3150
+Wire Wire Line
+	5700 3300 5600 3300
+Wire Wire Line
+	5700 3400 5600 3400
+Wire Wire Line
+	5700 2600 5600 2600
+Wire Wire Line
+	5700 2500 5600 2500
+Wire Wire Line
+	5700 2350 5600 2350
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5C38EA92
+P 5900 4400
+F 0 "J1" H 5980 4392 50  0000 L CNN
+F 1 "Conn_01x02" H 5980 4301 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 5900 4400 50  0001 C CNN
+F 3 "~" H 5900 4400 50  0001 C CNN
+	1    5900 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 2100 5600 2100
+Wire Wire Line
+	8150 2000 5600 2000
+Wire Wire Line
+	8200 1900 5600 1900
+$Sheet
+S 4300 1800 1300 2800
+U 5C38B498
+F0 "PcbToPcbConnector" 50
+F1 "PcbToPcbConnector.sch" 50
+F2 "LogicULA" I L 4300 2900 50 
+F3 "~LogicUHA" I L 4300 2800 50 
+F4 "LogicVLA" I L 4300 3150 50 
+F5 "~LogicVHA" I L 4300 3050 50 
+F6 "LogicWLA" I L 4300 3400 50 
+F7 "~LogicWHA" I L 4300 3300 50 
+F8 "LogicGdEnaA" I L 4300 2350 50 
+F9 "~LogicGdErr1A" O L 4300 2500 50 
+F10 "~LogicGdErr2A" O L 4300 2600 50 
+F11 "LogicULB" O R 5600 2900 50 
+F12 "~LogicUHB" O R 5600 2800 50 
+F13 "LogicVLB" O R 5600 3150 50 
+F14 "~LogicVHB" O R 5600 3050 50 
+F15 "LogicWLB" O R 5600 3400 50 
+F16 "~LogicWHB" O R 5600 3300 50 
+F17 "LogicGdEnaB" O R 5600 2350 50 
+F18 "~LogicGdErr1B" I R 5600 2500 50 
+F19 "~LogicGdErr2B" I R 5600 2600 50 
+F20 "CurrentUB" I R 5600 1900 50 
+F21 "CurrentVB" I R 5600 2000 50 
+F22 "CurrentWB" I R 5600 2100 50 
+F23 "CurrentWA" I L 4300 2100 50 
+F24 "CurrentVA" I L 4300 2000 50 
+F25 "CurrentUA" I L 4300 1900 50 
+F26 "CanHA" B L 4300 4400 50 
+F27 "CanLA" B R 5600 4400 50 
+F28 "CanHB" B L 4300 4500 50 
+F29 "CanLB" B R 5600 4500 50 
+$EndSheet
+Wire Wire Line
+	3000 1400 3100 1400
+Wire Wire Line
+	3000 1500 3100 1500
+Wire Wire Line
+	3000 1600 3100 1600
+Wire Wire Line
+	3000 1700 3100 1700
+Wire Wire Line
+	3000 4400 3100 4400
+Wire Wire Line
+	3000 4500 3100 4500
+Wire Wire Line
+	4200 4400 4300 4400
+Wire Wire Line
+	4200 4500 4300 4500
+Wire Wire Line
+	5600 4400 5700 4400
+Wire Wire Line
+	5600 4500 5700 4500
+Text GLabel 8700 2700 0    50   Input ~ 0
+AGND_U
+Text GLabel 8700 2600 0    50   Input ~ 0
+3.3VA_U
+Wire Wire Line
+	8200 2400 8800 2400
+Wire Wire Line
+	8000 2500 8800 2500
+Wire Wire Line
+	8700 2600 8800 2600
+Wire Wire Line
+	8700 2700 8800 2700
+Text GLabel 8700 3400 0    50   Input ~ 0
+AGND_V
+Text GLabel 8700 3300 0    50   Input ~ 0
+3.3VA_V
+Wire Wire Line
+	8700 3300 8800 3300
+Wire Wire Line
+	8700 3400 8800 3400
+Text GLabel 8700 4100 0    50   Input ~ 0
+AGND_W
+Text GLabel 8700 4000 0    50   Input ~ 0
+3.3VA_W
+Wire Wire Line
+	8700 4000 8800 4000
+Wire Wire Line
+	8700 4100 8800 4100
+Wire Wire Line
+	8000 3900 8800 3900
+Wire Wire Line
+	8100 3800 8800 3800
+Wire Wire Line
+	8150 3100 8800 3100
+Wire Wire Line
+	8000 3200 8800 3200
+Wire Wire Line
+	3000 3400 4300 3400
+Wire Wire Line
+	3000 3300 4300 3300
+Wire Wire Line
+	3000 3150 4300 3150
+Wire Wire Line
+	3000 3050 4300 3050
+Wire Wire Line
+	3000 2900 4300 2900
+Wire Wire Line
+	3000 2800 4300 2800
+Wire Wire Line
+	3000 2600 4300 2600
+Wire Wire Line
+	3000 2500 4300 2500
+Wire Wire Line
+	3000 2350 4300 2350
+Wire Wire Line
+	3000 2100 4300 2100
+Wire Wire Line
+	3000 2000 4300 2000
+Wire Wire Line
+	3000 1900 4300 1900
+Text Notes 1900 1000 0    197  ~ 39
+PCB A
+Text Notes 6000 1000 0    197  ~ 39
+PCB B
+Wire Notes Line width 39
+	4950 600  4950 7700
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5C3E0991
+P 7000 5500
+AR Path="/5C35F725/5C3E0991" Ref="J?"  Part="1" 
+AR Path="/5C3E0991" Ref="J2"  Part="1" 
+F 0 "J2" V 6873 5580 50  0000 L CNN
+F 1 "Conn_01x01" V 6964 5580 50  0000 L CNN
+F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 7000 5500 50  0001 C CNN
+F 3 "~" H 7000 5500 50  0001 C CNN
+	1    7000 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 5C3E0998
+P 7000 5300
+AR Path="/5C35F725/5C3E0998" Ref="#PWR?"  Part="1" 
+AR Path="/5C3E0998" Ref="#PWR05"  Part="1" 
+F 0 "#PWR05" H 7000 5150 50  0001 C CNN
+F 1 "+BATT" H 7015 5473 50  0000 C CNN
+F 2 "" H 7000 5300 50  0001 C CNN
+F 3 "" H 7000 5300 50  0001 C CNN
+	1    7000 5300
+	1    0    0    -1  
+$EndComp
+Text GLabel 3200 5650 3    50   Input ~ 0
+GNDPWR_A
+Text GLabel 4100 5650 3    50   Input ~ 0
+GNDPWR_A
+$EndSCHEMATC

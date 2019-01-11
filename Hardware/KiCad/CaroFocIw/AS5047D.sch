@@ -1,0 +1,154 @@
+EESchema Schematic File Version 4
+LIBS:CaroFocIw-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 4600 3700 0    50   Input ~ 0
+EncoderMosi
+Text HLabel 4600 3800 0    50   Output ~ 0
+EncoderMiso
+Text HLabel 4600 3900 0    50   Input ~ 0
+EncoderSclk
+Text HLabel 4600 4000 0    50   Input ~ 0
+~EncoderCs
+Wire Wire Line
+	4600 3700 5100 3700
+Wire Wire Line
+	4600 3800 5100 3800
+Wire Wire Line
+	4600 3900 5100 3900
+Wire Wire Line
+	4600 4000 5100 4000
+$Comp
+L Device:C C22
+U 1 1 5C35F7C2
+P 6200 3350
+F 0 "C22" H 6315 3396 50  0000 L CNN
+F 1 "100n" H 6315 3305 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6238 3200 50  0001 C CNN
+F 3 "~" H 6200 3350 50  0001 C CNN
+	1    6200 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C23
+U 1 1 5C35F856
+P 6600 3350
+F 0 "C23" H 6715 3396 50  0000 L CNN
+F 1 "10μ" H 6715 3305 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6638 3200 50  0001 C CNN
+F 3 "~" H 6600 3350 50  0001 C CNN
+	1    6600 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR049
+U 1 1 5C35F8F2
+P 5500 3200
+F 0 "#PWR049" H 5500 3050 50  0001 C CNN
+F 1 "+3.3V" H 5515 3373 50  0000 C CNN
+F 2 "" H 5500 3200 50  0001 C CNN
+F 3 "" H 5500 3200 50  0001 C CNN
+	1    5500 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR050
+U 1 1 5C35F913
+P 5600 3200
+F 0 "#PWR050" H 5600 3050 50  0001 C CNN
+F 1 "+3.3V" H 5615 3373 50  0000 C CNN
+F 2 "" H 5600 3200 50  0001 C CNN
+F 3 "" H 5600 3200 50  0001 C CNN
+	1    5600 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR052
+U 1 1 5C35F92D
+P 6200 3200
+F 0 "#PWR052" H 6200 3050 50  0001 C CNN
+F 1 "+3.3V" H 6215 3373 50  0000 C CNN
+F 2 "" H 6200 3200 50  0001 C CNN
+F 3 "" H 6200 3200 50  0001 C CNN
+	1    6200 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR054
+U 1 1 5C35F93E
+P 6600 3200
+F 0 "#PWR054" H 6600 3050 50  0001 C CNN
+F 1 "+3.3V" H 6615 3373 50  0000 C CNN
+F 2 "" H 6600 3200 50  0001 C CNN
+F 3 "" H 6600 3200 50  0001 C CNN
+	1    6600 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3200 5500 3500
+Wire Wire Line
+	5600 3200 5600 3500
+$Comp
+L power:GND #PWR053
+U 1 1 5C35F997
+P 6200 3500
+F 0 "#PWR053" H 6200 3250 50  0001 C CNN
+F 1 "GND" H 6205 3327 50  0000 C CNN
+F 2 "" H 6200 3500 50  0001 C CNN
+F 3 "" H 6200 3500 50  0001 C CNN
+	1    6200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR055
+U 1 1 5C35F9BD
+P 6600 3500
+F 0 "#PWR055" H 6600 3250 50  0001 C CNN
+F 1 "GND" H 6605 3327 50  0000 C CNN
+F 2 "" H 6600 3500 50  0001 C CNN
+F 3 "" H 6600 3500 50  0001 C CNN
+	1    6600 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR051
+U 1 1 5C35F9CE
+P 5900 4500
+F 0 "#PWR051" H 5900 4250 50  0001 C CNN
+F 1 "GND" H 5905 4327 50  0000 C CNN
+F 2 "" H 5900 4500 50  0001 C CNN
+F 3 "" H 5900 4500 50  0001 C CNN
+	1    5900 4500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5300 4500
+NoConn ~ 5400 4500
+NoConn ~ 5500 4500
+NoConn ~ 5600 4500
+NoConn ~ 5700 4500
+NoConn ~ 5800 4500
+NoConn ~ 6100 4000
+$Comp
+L Sensor_Magnetic:AS5048A U5
+U 1 1 5C368370
+P 5600 4000
+F 0 "U5" H 6141 4046 50  0000 L CNN
+F 1 "AS5048A" H 6141 3955 50  0000 L CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 5600 3250 50  0001 C CNN
+F 3 "https://ams.com/documents/20143/36005/AS5048_DS000298_4-00.pdf" H 3450 5600 50  0001 C CNN
+	1    5600 4000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
