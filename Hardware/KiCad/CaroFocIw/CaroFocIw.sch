@@ -192,10 +192,10 @@ Wire Wire Line
 Wire Wire Line
 	8200 1900 8200 2400
 $Comp
-L Connector_Generic:Conn_01x01 J4
+L Connector_Generic:Conn_01x01 J2
 U 1 1 5C36B3B5
 P 10100 2500
-F 0 "J4" H 10180 2542 50  0000 L CNN
+F 0 "J2" H 10180 2542 50  0000 L CNN
 F 1 "Conn_01x01" H 10180 2451 50  0000 L CNN
 F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 10100 2500 50  0001 C CNN
 F 3 "~" H 10100 2500 50  0001 C CNN
@@ -203,10 +203,10 @@ F 3 "~" H 10100 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J5
+L Connector_Generic:Conn_01x01 J3
 U 1 1 5C36B407
 P 10100 3200
-F 0 "J5" H 10180 3242 50  0000 L CNN
+F 0 "J3" H 10180 3242 50  0000 L CNN
 F 1 "Conn_01x01" H 10180 3151 50  0000 L CNN
 F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 10100 3200 50  0001 C CNN
 F 3 "~" H 10100 3200 50  0001 C CNN
@@ -214,10 +214,10 @@ F 3 "~" H 10100 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J6
+L Connector_Generic:Conn_01x01 J4
 U 1 1 5C36B447
 P 10100 3900
-F 0 "J6" H 10180 3942 50  0000 L CNN
+F 0 "J4" H 10180 3942 50  0000 L CNN
 F 1 "Conn_01x01" H 10180 3851 50  0000 L CNN
 F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 10100 3900 50  0001 C CNN
 F 3 "~" H 10100 3900 50  0001 C CNN
@@ -225,10 +225,10 @@ F 3 "~" H 10100 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H5
+L Mechanical:MountingHole_Pad H2
 U 1 1 5C370EAF
 P 4100 5550
-F 0 "H5" H 4200 5601 50  0000 L CNN
+F 0 "H2" H 4200 5601 50  0000 L CNN
 F 1 "MountingHole_Pad" H 4200 5510 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 4100 5550 50  0001 C CNN
 F 3 "~" H 4100 5550 50  0001 C CNN
@@ -236,10 +236,10 @@ F 3 "~" H 4100 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H7
+L Mechanical:MountingHole_Pad H3
 U 1 1 5C370F0F
 P 5200 5550
-F 0 "H7" H 5300 5601 50  0000 L CNN
+F 0 "H3" H 5300 5601 50  0000 L CNN
 F 1 "MountingHole_Pad" H 5300 5510 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 5200 5550 50  0001 C CNN
 F 3 "~" H 5200 5550 50  0001 C CNN
@@ -247,10 +247,10 @@ F 3 "~" H 5200 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H3
+L Mechanical:MountingHole_Pad H1
 U 1 1 5C370F3F
 P 3200 5550
-F 0 "H3" H 3300 5601 50  0000 L CNN
+F 0 "H1" H 3300 5601 50  0000 L CNN
 F 1 "MountingHole_Pad" H 3300 5510 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3200 5550 50  0001 C CNN
 F 3 "~" H 3200 5550 50  0001 C CNN
@@ -258,10 +258,10 @@ F 3 "~" H 3200 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR02
+L power:GNDPWR #PWR04
 U 1 1 5C3710BD
 P 5200 5650
-F 0 "#PWR02" H 5200 5450 50  0001 C CNN
+F 0 "#PWR04" H 5200 5450 50  0001 C CNN
 F 1 "GNDPWR" H 5204 5496 50  0000 C CNN
 F 2 "" H 5200 5600 50  0001 C CNN
 F 3 "" H 5200 5600 50  0001 C CNN
@@ -269,10 +269,10 @@ F 3 "" H 5200 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H8
+L Mechanical:MountingHole_Pad H4
 U 1 1 5C374988
 P 6100 5550
-F 0 "H8" H 6200 5601 50  0000 L CNN
+F 0 "H4" H 6200 5601 50  0000 L CNN
 F 1 "MountingHole_Pad" H 6200 5510 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 6100 5550 50  0001 C CNN
 F 3 "~" H 6100 5550 50  0001 C CNN
@@ -280,10 +280,10 @@ F 3 "~" H 6100 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR03
+L power:GNDPWR #PWR05
 U 1 1 5C3749D8
 P 6100 5650
-F 0 "#PWR03" H 6100 5450 50  0001 C CNN
+F 0 "#PWR05" H 6100 5450 50  0001 C CNN
 F 1 "GNDPWR" H 6104 5496 50  0000 C CNN
 F 2 "" H 6100 5600 50  0001 C CNN
 F 3 "" H 6100 5600 50  0001 C CNN
@@ -309,10 +309,10 @@ Wire Wire Line
 Wire Wire Line
 	5700 2350 5600 2350
 $Comp
-L Connector_Generic:Conn_01x02 J2
+L Connector_Generic:Conn_01x02 J5
 U 1 1 5C38EA92
 P 5900 4400
-F 0 "J2" H 5980 4392 50  0000 L CNN
+F 0 "J5" H 5980 4392 50  0000 L CNN
 F 1 "Conn_01x02" H 5980 4301 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 5900 4400 50  0001 C CNN
 F 3 "~" H 5900 4400 50  0001 C CNN
@@ -450,8 +450,8 @@ L Connector_Generic:Conn_01x01 J?
 U 1 1 5C3E0991
 P 7000 5500
 AR Path="/5C35F725/5C3E0991" Ref="J?"  Part="1" 
-AR Path="/5C3E0991" Ref="J3"  Part="1" 
-F 0 "J3" V 6873 5580 50  0000 L CNN
+AR Path="/5C3E0991" Ref="J6"  Part="1" 
+F 0 "J6" V 6873 5580 50  0000 L CNN
 F 1 "Conn_01x01" V 6964 5580 50  0000 L CNN
 F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 7000 5500 50  0001 C CNN
 F 3 "~" H 7000 5500 50  0001 C CNN
@@ -463,8 +463,8 @@ L power:+BATT #PWR?
 U 1 1 5C3E0998
 P 7000 5300
 AR Path="/5C35F725/5C3E0998" Ref="#PWR?"  Part="1" 
-AR Path="/5C3E0998" Ref="#PWR04"  Part="1" 
-F 0 "#PWR04" H 7000 5150 50  0001 C CNN
+AR Path="/5C3E0998" Ref="#PWR02"  Part="1" 
+F 0 "#PWR02" H 7000 5150 50  0001 C CNN
 F 1 "+BATT" H 7015 5473 50  0000 C CNN
 F 2 "" H 7000 5300 50  0001 C CNN
 F 3 "" H 7000 5300 50  0001 C CNN
@@ -544,10 +544,10 @@ F 3 "~" H 7900 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR05
+L power:GNDPWR #PWR03
 U 1 1 5C3F5C11
 P 7900 5300
-F 0 "#PWR05" H 7900 5100 50  0001 C CNN
+F 0 "#PWR03" H 7900 5100 50  0001 C CNN
 F 1 "GNDPWR" H 7904 5146 50  0000 C CNN
 F 2 "" H 7900 5250 50  0001 C CNN
 F 3 "" H 7900 5250 50  0001 C CNN
@@ -555,10 +555,10 @@ F 3 "" H 7900 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H6
+L Mechanical:MountingHole_Pad H8
 U 1 1 5C3CE918
 P 4100 6350
-F 0 "H6" H 4200 6401 50  0000 L CNN
+F 0 "H8" H 4200 6401 50  0000 L CNN
 F 1 "MountingHole_Pad" H 4200 6310 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 4100 6350 50  0001 C CNN
 F 3 "~" H 4100 6350 50  0001 C CNN
@@ -566,10 +566,10 @@ F 3 "~" H 4100 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H4
+L Mechanical:MountingHole_Pad H7
 U 1 1 5C3CE91F
 P 3200 6350
-F 0 "H4" H 3300 6401 50  0000 L CNN
+F 0 "H7" H 3300 6401 50  0000 L CNN
 F 1 "MountingHole_Pad" H 3300 6310 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3200 6350 50  0001 C CNN
 F 3 "~" H 3200 6350 50  0001 C CNN
@@ -581,10 +581,10 @@ GNDPWR_A
 Text GLabel 4100 6450 3    50   Input ~ 0
 GNDPWR_A
 $Comp
-L Mechanical:MountingHole_Pad H2
+L Mechanical:MountingHole_Pad H6
 U 1 1 5C3D1117
 P 2300 6350
-F 0 "H2" H 2400 6401 50  0000 L CNN
+F 0 "H6" H 2400 6401 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2400 6310 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2300 6350 50  0001 C CNN
 F 3 "~" H 2300 6350 50  0001 C CNN
@@ -592,10 +592,10 @@ F 3 "~" H 2300 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H1
+L Mechanical:MountingHole_Pad H5
 U 1 1 5C3D111E
 P 1400 6350
-F 0 "H1" H 1500 6401 50  0000 L CNN
+F 0 "H5" H 1500 6401 50  0000 L CNN
 F 1 "MountingHole_Pad" H 1500 6310 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1400 6350 50  0001 C CNN
 F 3 "~" H 1400 6350 50  0001 C CNN
