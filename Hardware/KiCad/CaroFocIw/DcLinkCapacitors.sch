@@ -1,0 +1,411 @@
+EESchema Schematic File Version 4
+LIBS:CaroFocIw-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 15 15
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C27
+U 1 1 5C5A8F3E
+P 4100 2850
+F 0 "C27" H 4215 2896 50  0000 L CNN
+F 1 "C" H 4215 2805 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 4138 2700 50  0001 C CNN
+F 3 "~" H 4100 2850 50  0001 C CNN
+	1    4100 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C28
+U 1 1 5C5A8F68
+P 4400 2850
+F 0 "C28" H 4515 2896 50  0000 L CNN
+F 1 "C" H 4515 2805 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 4438 2700 50  0001 C CNN
+F 3 "~" H 4400 2850 50  0001 C CNN
+	1    4400 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C29
+U 1 1 5C5A8F88
+P 4700 2850
+F 0 "C29" H 4815 2896 50  0000 L CNN
+F 1 "C" H 4815 2805 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 4738 2700 50  0001 C CNN
+F 3 "~" H 4700 2850 50  0001 C CNN
+	1    4700 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C30
+U 1 1 5C5A8FAA
+P 5000 2850
+F 0 "C30" H 5115 2896 50  0000 L CNN
+F 1 "C" H 5115 2805 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 5038 2700 50  0001 C CNN
+F 3 "~" H 5000 2850 50  0001 C CNN
+	1    5000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C31
+U 1 1 5C5A8FD2
+P 5300 2850
+F 0 "C31" H 5415 2896 50  0000 L CNN
+F 1 "C" H 5415 2805 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 5338 2700 50  0001 C CNN
+F 3 "~" H 5300 2850 50  0001 C CNN
+	1    5300 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C32
+U 1 1 5C5A8FF8
+P 5600 2850
+F 0 "C32" H 5715 2896 50  0000 L CNN
+F 1 "C" H 5715 2805 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 5638 2700 50  0001 C CNN
+F 3 "~" H 5600 2850 50  0001 C CNN
+	1    5600 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C33
+U 1 1 5C5A901A
+P 5900 2850
+F 0 "C33" H 6015 2896 50  0000 L CNN
+F 1 "C" H 6015 2805 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 5938 2700 50  0001 C CNN
+F 3 "~" H 5900 2850 50  0001 C CNN
+	1    5900 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C34
+U 1 1 5C5A9086
+P 6200 2850
+F 0 "C34" H 6315 2896 50  0000 L CNN
+F 1 "C" H 6315 2805 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 6238 2700 50  0001 C CNN
+F 3 "~" H 6200 2850 50  0001 C CNN
+	1    6200 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C35
+U 1 1 5C5A90B2
+P 6500 2850
+F 0 "C35" H 6615 2896 50  0000 L CNN
+F 1 "C" H 6615 2805 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 6538 2700 50  0001 C CNN
+F 3 "~" H 6500 2850 50  0001 C CNN
+	1    6500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C36
+U 1 1 5C5A90D8
+P 6800 2850
+F 0 "C36" H 6915 2896 50  0000 L CNN
+F 1 "C" H 6915 2805 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 6838 2700 50  0001 C CNN
+F 3 "~" H 6800 2850 50  0001 C CNN
+	1    6800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR077
+U 1 1 5C5A9141
+P 4100 2600
+F 0 "#PWR077" H 4100 2450 50  0001 C CNN
+F 1 "+BATT" H 4115 2773 50  0000 C CNN
+F 2 "" H 4100 2600 50  0001 C CNN
+F 3 "" H 4100 2600 50  0001 C CNN
+	1    4100 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR078
+U 1 1 5C5A917E
+P 4100 3100
+F 0 "#PWR078" H 4100 2900 50  0001 C CNN
+F 1 "GNDPWR" H 4104 2946 50  0000 C CNN
+F 2 "" H 4100 3050 50  0001 C CNN
+F 3 "" H 4100 3050 50  0001 C CNN
+	1    4100 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2600 4100 2700
+Wire Wire Line
+	4100 3100 4100 3000
+Wire Wire Line
+	4100 3000 4400 3000
+Connection ~ 4100 3000
+Connection ~ 4400 3000
+Wire Wire Line
+	4400 3000 4700 3000
+Connection ~ 4700 3000
+Wire Wire Line
+	4700 3000 5000 3000
+Connection ~ 5000 3000
+Wire Wire Line
+	5000 3000 5300 3000
+Connection ~ 5300 3000
+Wire Wire Line
+	5300 3000 5600 3000
+Connection ~ 5600 3000
+Wire Wire Line
+	5600 3000 5900 3000
+Connection ~ 5900 3000
+Wire Wire Line
+	5900 3000 6200 3000
+Connection ~ 6200 3000
+Wire Wire Line
+	6200 3000 6500 3000
+Connection ~ 6500 3000
+Wire Wire Line
+	6500 3000 6800 3000
+Wire Wire Line
+	4100 2700 4400 2700
+Connection ~ 4100 2700
+Connection ~ 4400 2700
+Wire Wire Line
+	4400 2700 4700 2700
+Connection ~ 4700 2700
+Wire Wire Line
+	4700 2700 5000 2700
+Connection ~ 5000 2700
+Wire Wire Line
+	5000 2700 5300 2700
+Connection ~ 5300 2700
+Wire Wire Line
+	5300 2700 5600 2700
+Connection ~ 5600 2700
+Wire Wire Line
+	5600 2700 5900 2700
+Connection ~ 5900 2700
+Wire Wire Line
+	5900 2700 6200 2700
+Connection ~ 6200 2700
+Wire Wire Line
+	6200 2700 6500 2700
+Connection ~ 6500 2700
+Wire Wire Line
+	6500 2700 6800 2700
+$Comp
+L Device:C C37
+U 1 1 5C5A9A12
+P 7100 2850
+F 0 "C37" H 7215 2896 50  0000 L CNN
+F 1 "C" H 7215 2805 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 7138 2700 50  0001 C CNN
+F 3 "~" H 7100 2850 50  0001 C CNN
+	1    7100 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C38
+U 1 1 5C5A9A69
+P 7400 2850
+F 0 "C38" H 7515 2896 50  0000 L CNN
+F 1 "C" H 7515 2805 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 7438 2700 50  0001 C CNN
+F 3 "~" H 7400 2850 50  0001 C CNN
+	1    7400 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C39
+U 1 1 5C5A9AA1
+P 7700 2850
+F 0 "C39" H 7815 2896 50  0000 L CNN
+F 1 "C" H 7815 2805 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 7738 2700 50  0001 C CNN
+F 3 "~" H 7700 2850 50  0001 C CNN
+	1    7700 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C40
+U 1 1 5C5A9AD3
+P 8000 2850
+F 0 "C40" H 8115 2896 50  0000 L CNN
+F 1 "C" H 8115 2805 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 8038 2700 50  0001 C CNN
+F 3 "~" H 8000 2850 50  0001 C CNN
+	1    8000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C41
+U 1 1 5C5A9B07
+P 8300 2850
+F 0 "C41" H 8415 2896 50  0000 L CNN
+F 1 "C" H 8415 2805 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 8338 2700 50  0001 C CNN
+F 3 "~" H 8300 2850 50  0001 C CNN
+	1    8300 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C42
+U 1 1 5C5A9B49
+P 8600 2850
+F 0 "C42" H 8715 2896 50  0000 L CNN
+F 1 "C" H 8715 2805 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 8638 2700 50  0001 C CNN
+F 3 "~" H 8600 2850 50  0001 C CNN
+	1    8600 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C43
+U 1 1 5C5A9B89
+P 8900 2850
+F 0 "C43" H 9015 2896 50  0000 L CNN
+F 1 "C" H 9015 2805 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 8938 2700 50  0001 C CNN
+F 3 "~" H 8900 2850 50  0001 C CNN
+	1    8900 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C44
+U 1 1 5C5A9BD1
+P 9200 2850
+F 0 "C44" H 9315 2896 50  0000 L CNN
+F 1 "C" H 9315 2805 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 9238 2700 50  0001 C CNN
+F 3 "~" H 9200 2850 50  0001 C CNN
+	1    9200 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 2700 7100 2700
+Connection ~ 6800 2700
+Connection ~ 7100 2700
+Wire Wire Line
+	7100 2700 7400 2700
+Connection ~ 7400 2700
+Wire Wire Line
+	7400 2700 7700 2700
+Connection ~ 7700 2700
+Wire Wire Line
+	7700 2700 8000 2700
+Connection ~ 8000 2700
+Wire Wire Line
+	8000 2700 8300 2700
+Connection ~ 8300 2700
+Wire Wire Line
+	8300 2700 8600 2700
+Connection ~ 8600 2700
+Wire Wire Line
+	8600 2700 8900 2700
+Connection ~ 8900 2700
+Wire Wire Line
+	8900 2700 9200 2700
+Wire Wire Line
+	6800 3000 7100 3000
+Connection ~ 6800 3000
+Connection ~ 7100 3000
+Wire Wire Line
+	7100 3000 7400 3000
+Connection ~ 7400 3000
+Wire Wire Line
+	7400 3000 7700 3000
+Connection ~ 7700 3000
+Wire Wire Line
+	7700 3000 8000 3000
+Connection ~ 8000 3000
+Wire Wire Line
+	8000 3000 8300 3000
+Connection ~ 8300 3000
+Wire Wire Line
+	8300 3000 8600 3000
+Connection ~ 8600 3000
+Wire Wire Line
+	8600 3000 8900 3000
+Connection ~ 8900 3000
+Wire Wire Line
+	8900 3000 9200 3000
+$Comp
+L Device:C C45
+U 1 1 5C5AA6DC
+P 9500 2850
+F 0 "C45" H 9615 2896 50  0000 L CNN
+F 1 "C" H 9615 2805 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 9538 2700 50  0001 C CNN
+F 3 "~" H 9500 2850 50  0001 C CNN
+	1    9500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C46
+U 1 1 5C5AA754
+P 9800 2850
+F 0 "C46" H 9915 2896 50  0000 L CNN
+F 1 "C" H 9915 2805 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 9838 2700 50  0001 C CNN
+F 3 "~" H 9800 2850 50  0001 C CNN
+	1    9800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C47
+U 1 1 5C5AA794
+P 10100 2850
+F 0 "C47" H 10215 2896 50  0000 L CNN
+F 1 "C" H 10215 2805 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 10138 2700 50  0001 C CNN
+F 3 "~" H 10100 2850 50  0001 C CNN
+	1    10100 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C48
+U 1 1 5C5AA7D6
+P 10400 2850
+F 0 "C48" H 10515 2896 50  0000 L CNN
+F 1 "C" H 10515 2805 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 10438 2700 50  0001 C CNN
+F 3 "~" H 10400 2850 50  0001 C CNN
+	1    10400 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 2700 9500 2700
+Connection ~ 9200 2700
+Connection ~ 9500 2700
+Wire Wire Line
+	9500 2700 9800 2700
+Connection ~ 9800 2700
+Wire Wire Line
+	9800 2700 10100 2700
+Connection ~ 10100 2700
+Wire Wire Line
+	10100 2700 10400 2700
+Wire Wire Line
+	9200 3000 9500 3000
+Connection ~ 9200 3000
+Connection ~ 9500 3000
+Wire Wire Line
+	9500 3000 9800 3000
+Connection ~ 9800 3000
+Wire Wire Line
+	9800 3000 10100 3000
+Connection ~ 10100 3000
+Wire Wire Line
+	10100 3000 10400 3000
+$EndSCHEMATC

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 14
+Sheet 14 15
 Title ""
 Date ""
 Rev ""
@@ -39,10 +39,10 @@ $EndComp
 Text GLabel 5100 2900 1    50   Input ~ 0
 BattA
 $Comp
-L power:GND #PWR088
+L power:GND #PWR076
 U 1 1 5C3CCB3F
 P 5100 3900
-F 0 "#PWR088" H 5100 3650 50  0001 C CNN
+F 0 "#PWR076" H 5100 3650 50  0001 C CNN
 F 1 "GND" H 5105 3727 50  0000 C CNN
 F 2 "" H 5100 3900 50  0001 C CNN
 F 3 "" H 5100 3900 50  0001 C CNN

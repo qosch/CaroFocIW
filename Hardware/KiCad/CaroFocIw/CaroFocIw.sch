@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 14
+Sheet 1 15
 Title ""
 Date ""
 Rev ""
@@ -15,22 +15,22 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 3100 4300 1100 300 
+S 3100 4400 1100 300 
 U 5C35C247
 F0 "Can" 50
 F1 "Can.sch" 50
-F2 "CanTx" I L 3100 4400 50 
-F3 "CanRx" O L 3100 4500 50 
-F4 "CanH" B R 4200 4400 50 
-F5 "CanL" B R 4200 4500 50 
+F2 "CanTx" I L 3100 4500 50 
+F3 "CanRx" O L 3100 4600 50 
+F4 "CanH" B R 4200 4500 50 
+F5 "CanL" B R 4200 4600 50 
 $EndSheet
 $Sheet
-S 1900 1300 1100 3300
+S 1900 1300 1100 3800
 U 5C35C260
 F0 "MCU" 50
 F1 "STM32F4_64LQFP.sch" 50
-F2 "CanRx" I R 3000 4500 50 
-F3 "CanTx" O R 3000 4400 50 
+F2 "CanRx" I R 3000 4600 50 
+F3 "CanTx" O R 3000 4500 50 
 F4 "CurrentU" I R 3000 1900 50 
 F5 "CurrentV" I R 3000 2000 50 
 F6 "CurrentW" I R 3000 2100 50 
@@ -50,56 +50,56 @@ F19 "~GateDriverErr2" I R 3000 2600 50
 F20 "SWDIO" I L 1900 1700 50 
 F21 "SWCLK" I L 1900 1600 50 
 F22 "~RST" I L 1900 1400 50 
-F23 "DcLinkVoltage" I R 3000 3600 50 
+F23 "DcLinkVoltage" I R 3000 5000 50 
 $EndSheet
 $Sheet
-S 5700 2300 1100 1900
+S 3100 2300 1100 1900
 U 5C35C28F
 F0 "GateDriver" 50
 F1 "GateDriver.sch" 50
-F2 "LogicUL" I L 5700 2900 50 
-F3 "~LogicUH" I L 5700 2800 50 
-F4 "LogicVL" I L 5700 3150 50 
-F5 "~LogicVH" I L 5700 3050 50 
-F6 "LogicWL" I L 5700 3400 50 
-F7 "~LogicWH" I L 5700 3300 50 
-F8 "LogicGdEna" I L 5700 2350 50 
-F9 "~LogicGdErr1" O L 5700 2500 50 
-F10 "~LogicGdErr2" O L 5700 2600 50 
-F11 "SourceUH" O R 6800 2500 50 
-F12 "SourceVH" O R 6800 3200 50 
-F13 "SourceWH" O R 6800 3900 50 
-F14 "SourceUL" O R 6800 2700 50 
-F15 "SourceVL" O R 6800 3400 50 
-F16 "SourceWL" O R 6800 4100 50 
-F17 "GateWL" O R 6800 4000 50 
-F18 "GateVL" O R 6800 3300 50 
-F19 "GateUL" O R 6800 2600 50 
-F20 "GateWH" O R 6800 3800 50 
-F21 "GateVH" O R 6800 3100 50 
-F22 "GateUH" O R 6800 2400 50 
+F2 "LogicUL" I L 3100 2900 50 
+F3 "~LogicUH" I L 3100 2800 50 
+F4 "LogicVL" I L 3100 3150 50 
+F5 "~LogicVH" I L 3100 3050 50 
+F6 "LogicWL" I L 3100 3400 50 
+F7 "~LogicWH" I L 3100 3300 50 
+F8 "LogicGdEna" I L 3100 2350 50 
+F9 "~LogicGdErr1" O L 3100 2500 50 
+F10 "~LogicGdErr2" O L 3100 2600 50 
+F11 "SourceUH" O R 4200 2500 50 
+F12 "SourceVH" O R 4200 3200 50 
+F13 "SourceWH" O R 4200 3900 50 
+F14 "SourceUL" O R 4200 2700 50 
+F15 "SourceVL" O R 4200 3400 50 
+F16 "SourceWL" O R 4200 4100 50 
+F17 "GateWL" O R 4200 4000 50 
+F18 "GateVL" O R 4200 3300 50 
+F19 "GateUL" O R 4200 2600 50 
+F20 "GateWH" O R 4200 3800 50 
+F21 "GateVH" O R 4200 3100 50 
+F22 "GateUH" O R 4200 2400 50 
 $EndSheet
 $Sheet
-S 6900 2300 1100 500 
+S 5700 2300 1100 500 
 U 5C35C41B
 F0 "HalfBridgeU" 50
 F1 "HalfBridge.sch" 50
-F2 "PowerPhase" O R 8000 2500 50 
-F3 "GateH" I L 6900 2400 50 
-F4 "GateL" I L 6900 2600 50 
-F5 "SourceL" I L 6900 2700 50 
-F6 "SourceH" I L 6900 2500 50 
+F2 "PowerPhase" O R 6800 2500 50 
+F3 "GateH" I L 5700 2400 50 
+F4 "GateL" I L 5700 2600 50 
+F5 "SourceL" I L 5700 2700 50 
+F6 "SourceH" I L 5700 2500 50 
 $EndSheet
 $Sheet
-S 8800 2300 1100 500 
+S 7600 2300 1100 500 
 U 5C35C464
 F0 "CurrentSensingU" 50
 F1 "CurrentSensing.sch" 50
-F2 "PhaseIn" I L 8800 2500 50 
-F3 "PhaseOut" O R 9900 2500 50 
-F4 "AnalogOut" O L 8800 2400 50 
-F5 "AGND" I L 8800 2700 50 
-F6 "3.3VA" I L 8800 2600 50 
+F2 "PhaseIn" I L 7600 2500 50 
+F3 "PhaseOut" O R 8700 2500 50 
+F4 "AnalogOut" O L 7600 2400 50 
+F5 "AGND" I L 7600 2700 50 
+F6 "3.3VA" I L 7600 2600 50 
 $EndSheet
 $Sheet
 S 3100 1300 1100 500 
@@ -112,75 +112,75 @@ F4 "EncoderSclk" I L 3100 1600 50
 F5 "~EncoderCs" I L 3100 1700 50 
 $EndSheet
 $Sheet
-S 6900 3000 1100 500 
+S 5700 3000 1100 500 
 U 5C3602D5
 F0 "HalfBridgeV" 50
 F1 "HalfBridge.sch" 50
-F2 "PowerPhase" O R 8000 3200 50 
-F3 "GateH" I L 6900 3100 50 
-F4 "GateL" I L 6900 3300 50 
-F5 "SourceL" I L 6900 3400 50 
-F6 "SourceH" I L 6900 3200 50 
+F2 "PowerPhase" O R 6800 3200 50 
+F3 "GateH" I L 5700 3100 50 
+F4 "GateL" I L 5700 3300 50 
+F5 "SourceL" I L 5700 3400 50 
+F6 "SourceH" I L 5700 3200 50 
 $EndSheet
 $Sheet
-S 6900 3700 1100 500 
+S 5700 3700 1100 500 
 U 5C3602E3
 F0 "HalfBridgeW" 50
 F1 "HalfBridge.sch" 50
-F2 "PowerPhase" O R 8000 3900 50 
-F3 "GateH" I L 6900 3800 50 
-F4 "GateL" I L 6900 4000 50 
-F5 "SourceL" I L 6900 4100 50 
-F6 "SourceH" I L 6900 3900 50 
+F2 "PowerPhase" O R 6800 3900 50 
+F3 "GateH" I L 5700 3800 50 
+F4 "GateL" I L 5700 4000 50 
+F5 "SourceL" I L 5700 4100 50 
+F6 "SourceH" I L 5700 3900 50 
 $EndSheet
 $Sheet
-S 8800 3000 1100 500 
+S 7600 3000 1100 500 
 U 5C36048B
 F0 "CurrentSensingV" 50
 F1 "CurrentSensing.sch" 50
-F2 "PhaseIn" I L 8800 3200 50 
-F3 "PhaseOut" O R 9900 3200 50 
-F4 "AnalogOut" O L 8800 3100 50 
-F5 "AGND" I L 8800 3400 50 
-F6 "3.3VA" I L 8800 3300 50 
+F2 "PhaseIn" I L 7600 3200 50 
+F3 "PhaseOut" O R 8700 3200 50 
+F4 "AnalogOut" O L 7600 3100 50 
+F5 "AGND" I L 7600 3400 50 
+F6 "3.3VA" I L 7600 3300 50 
 $EndSheet
 $Sheet
-S 8800 3700 1100 500 
+S 7600 3700 1100 500 
 U 5C360499
 F0 "CurrentsensingW" 50
 F1 "CurrentSensing.sch" 50
-F2 "PhaseIn" I L 8800 3900 50 
-F3 "PhaseOut" O R 9900 3900 50 
-F4 "AnalogOut" O L 8800 3800 50 
-F5 "AGND" I L 8800 4100 50 
-F6 "3.3VA" I L 8800 4000 50 
+F2 "PhaseIn" I L 7600 3900 50 
+F3 "PhaseOut" O R 8700 3900 50 
+F4 "AnalogOut" O L 7600 3800 50 
+F5 "AGND" I L 7600 4100 50 
+F6 "3.3VA" I L 7600 4000 50 
 $EndSheet
 Wire Wire Line
-	6800 2400 6900 2400
+	5600 2400 5700 2400
 Wire Wire Line
-	6800 2500 6900 2500
+	5600 2500 5700 2500
 Wire Wire Line
-	6800 2600 6900 2600
+	5600 2600 5700 2600
 Wire Wire Line
-	6800 2700 6900 2700
+	5600 2700 5700 2700
 Wire Wire Line
-	6800 3100 6900 3100
+	5600 3100 5700 3100
 Wire Wire Line
-	6800 3200 6900 3200
+	5600 3200 5700 3200
 Wire Wire Line
-	6800 3300 6900 3300
+	5600 3300 5700 3300
 Wire Wire Line
-	6800 3400 6900 3400
+	5600 3400 5700 3400
 Wire Wire Line
-	6800 3800 6900 3800
+	5600 3800 5700 3800
 Wire Wire Line
-	6800 3900 6900 3900
+	5600 3900 5700 3900
 Wire Wire Line
-	6800 4000 6900 4000
+	5600 4000 5700 4000
 Wire Wire Line
-	6800 4100 6900 4100
+	5600 4100 5700 4100
 Wire Wire Line
-	8100 2100 8100 3800
+	6900 2100 6900 3800
 $Sheet
 S 1900 5500 1100 500 
 U 5C35F725
@@ -188,40 +188,40 @@ F0 "PowerSupply" 50
 F1 "TPS560430X3F.sch" 50
 $EndSheet
 Wire Wire Line
-	8150 2000 8150 3100
+	6950 2000 6950 3100
 Wire Wire Line
-	8200 1900 8200 2400
+	7000 1900 7000 2400
 $Comp
 L Connector_Generic:Conn_01x01 J2
 U 1 1 5C36B3B5
-P 10100 2500
-F 0 "J2" H 10180 2542 50  0000 L CNN
-F 1 "Conn_01x01" H 10180 2451 50  0000 L CNN
-F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 10100 2500 50  0001 C CNN
-F 3 "~" H 10100 2500 50  0001 C CNN
-	1    10100 2500
+P 8900 2500
+F 0 "J2" H 8980 2542 50  0000 L CNN
+F 1 "Conn_01x01" H 8980 2451 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 8900 2500 50  0001 C CNN
+F 3 "~" H 8900 2500 50  0001 C CNN
+	1    8900 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J3
 U 1 1 5C36B407
-P 10100 3200
-F 0 "J3" H 10180 3242 50  0000 L CNN
-F 1 "Conn_01x01" H 10180 3151 50  0000 L CNN
-F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 10100 3200 50  0001 C CNN
-F 3 "~" H 10100 3200 50  0001 C CNN
-	1    10100 3200
+P 8900 3200
+F 0 "J3" H 8980 3242 50  0000 L CNN
+F 1 "Conn_01x01" H 8980 3151 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 8900 3200 50  0001 C CNN
+F 3 "~" H 8900 3200 50  0001 C CNN
+	1    8900 3200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J4
 U 1 1 5C36B447
-P 10100 3900
-F 0 "J4" H 10180 3942 50  0000 L CNN
-F 1 "Conn_01x01" H 10180 3851 50  0000 L CNN
-F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 10100 3900 50  0001 C CNN
-F 3 "~" H 10100 3900 50  0001 C CNN
-	1    10100 3900
+P 8900 3900
+F 0 "J4" H 8980 3942 50  0000 L CNN
+F 1 "Conn_01x01" H 8980 3851 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 8900 3900 50  0001 C CNN
+F 3 "~" H 8900 3900 50  0001 C CNN
+	1    8900 3900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -230,7 +230,7 @@ U 1 1 5C370EAF
 P 4100 5550
 F 0 "H2" H 4200 5601 50  0000 L CNN
 F 1 "MountingHole_Pad" H 4200 5510 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 4100 5550 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 4100 5550 50  0001 C CNN
 F 3 "~" H 4100 5550 50  0001 C CNN
 	1    4100 5550
 	1    0    0    -1  
@@ -241,7 +241,7 @@ U 1 1 5C370F0F
 P 5200 5550
 F 0 "H3" H 5300 5601 50  0000 L CNN
 F 1 "MountingHole_Pad" H 5300 5510 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 5200 5550 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 5200 5550 50  0001 C CNN
 F 3 "~" H 5200 5550 50  0001 C CNN
 	1    5200 5550
 	1    0    0    -1  
@@ -252,7 +252,7 @@ U 1 1 5C370F3F
 P 3200 5550
 F 0 "H1" H 3300 5601 50  0000 L CNN
 F 1 "MountingHole_Pad" H 3300 5510 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3200 5550 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 3200 5550 50  0001 C CNN
 F 3 "~" H 3200 5550 50  0001 C CNN
 	1    3200 5550
 	1    0    0    -1  
@@ -274,7 +274,7 @@ U 1 1 5C374988
 P 6100 5550
 F 0 "H4" H 6200 5601 50  0000 L CNN
 F 1 "MountingHole_Pad" H 6200 5510 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 6100 5550 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 6100 5550 50  0001 C CNN
 F 3 "~" H 6100 5550 50  0001 C CNN
 	1    6100 5550
 	1    0    0    -1  
@@ -290,74 +290,56 @@ F 3 "" H 6100 5600 50  0001 C CNN
 	1    6100 5650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5700 2800 5600 2800
-Wire Wire Line
-	5700 2900 5600 2900
-Wire Wire Line
-	5700 3050 5600 3050
-Wire Wire Line
-	5700 3150 5600 3150
-Wire Wire Line
-	5700 3300 5600 3300
-Wire Wire Line
-	5700 3400 5600 3400
-Wire Wire Line
-	5700 2600 5600 2600
-Wire Wire Line
-	5700 2500 5600 2500
-Wire Wire Line
-	5700 2350 5600 2350
 $Comp
 L Connector_Generic:Conn_01x02 J5
 U 1 1 5C38EA92
-P 5900 4400
-F 0 "J5" H 5980 4392 50  0000 L CNN
-F 1 "Conn_01x02" H 5980 4301 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 5900 4400 50  0001 C CNN
-F 3 "~" H 5900 4400 50  0001 C CNN
-	1    5900 4400
+P 5900 4500
+F 0 "J5" H 5980 4492 50  0000 L CNN
+F 1 "Conn_01x02" H 5980 4401 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 5900 4500 50  0001 C CNN
+F 3 "~" H 5900 4500 50  0001 C CNN
+	1    5900 4500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8100 2100 5600 2100
-Wire Wire Line
-	8150 2000 5600 2000
-Wire Wire Line
-	8200 1900 5600 1900
 $Sheet
-S 4300 1800 1300 2800
+S 4300 1800 1300 2900
 U 5C38B498
 F0 "PcbToPcbConnector" 50
 F1 "PcbToPcbConnector.sch" 50
-F2 "LogicULA" I L 4300 2900 50 
-F3 "~LogicUHA" I L 4300 2800 50 
-F4 "LogicVLA" I L 4300 3150 50 
-F5 "~LogicVHA" I L 4300 3050 50 
-F6 "LogicWLA" I L 4300 3400 50 
-F7 "~LogicWHA" I L 4300 3300 50 
-F8 "LogicGdEnaA" I L 4300 2350 50 
-F9 "~LogicGdErr1A" O L 4300 2500 50 
-F10 "~LogicGdErr2A" O L 4300 2600 50 
-F11 "LogicULB" O R 5600 2900 50 
-F12 "~LogicUHB" O R 5600 2800 50 
-F13 "LogicVLB" O R 5600 3150 50 
-F14 "~LogicVHB" O R 5600 3050 50 
-F15 "LogicWLB" O R 5600 3400 50 
-F16 "~LogicWHB" O R 5600 3300 50 
-F17 "LogicGdEnaB" O R 5600 2350 50 
-F18 "~LogicGdErr1B" I R 5600 2500 50 
-F19 "~LogicGdErr2B" I R 5600 2600 50 
-F20 "CurrentUB" I R 5600 1900 50 
-F21 "CurrentVB" I R 5600 2000 50 
-F22 "CurrentWB" I R 5600 2100 50 
-F23 "CurrentWA" I L 4300 2100 50 
-F24 "CurrentVA" I L 4300 2000 50 
-F25 "CurrentUA" I L 4300 1900 50 
-F26 "CanHA" B L 4300 4400 50 
-F27 "CanLA" B L 4300 4500 50 
-F28 "CanHB" B R 5600 4400 50 
-F29 "CanLB" B R 5600 4500 50 
+F2 "CurrentUB" I R 5600 1900 50 
+F3 "CurrentVB" I R 5600 2000 50 
+F4 "CurrentWB" I R 5600 2100 50 
+F5 "CurrentWA" I L 4300 2100 50 
+F6 "CurrentVA" I L 4300 2000 50 
+F7 "CurrentUA" I L 4300 1900 50 
+F8 "CanHA" B L 4300 4500 50 
+F9 "CanLA" B L 4300 4600 50 
+F10 "CanHB" B R 5600 4500 50 
+F11 "CanLB" B R 5600 4600 50 
+F12 "GateUHA" I L 4300 2400 50 
+F13 "SourceUHA" I L 4300 2500 50 
+F14 "GateULA" I L 4300 2600 50 
+F15 "SourceULA" I L 4300 2700 50 
+F16 "GateVHA" I L 4300 3100 50 
+F17 "SourceVHA" I L 4300 3200 50 
+F18 "GateVLA" I L 4300 3300 50 
+F19 "SourceVLA" I L 4300 3400 50 
+F20 "GateWHA" I L 4300 3800 50 
+F21 "SourceWHA" I L 4300 3900 50 
+F22 "GateWLA" I L 4300 4000 50 
+F23 "SourceWLA" I L 4300 4100 50 
+F24 "GateUHB" O R 5600 2400 50 
+F25 "SourceUHB" O R 5600 2500 50 
+F26 "GateULB" O R 5600 2600 50 
+F27 "SourceULB" O R 5600 2700 50 
+F28 "GateVHB" O R 5600 3100 50 
+F29 "SourceVHB" O R 5600 3200 50 
+F30 "GateVLB" O R 5600 3300 50 
+F31 "SourceVLB" O R 5600 3400 50 
+F32 "GateWHB" O R 5600 3800 50 
+F33 "SourceWHB" O R 5600 3900 50 
+F34 "GateWLB" O R 5600 4000 50 
+F35 "SourceWLB" O R 5600 4100 50 
 $EndSheet
 Wire Wire Line
 	3000 1400 3100 1400
@@ -368,71 +350,45 @@ Wire Wire Line
 Wire Wire Line
 	3000 1700 3100 1700
 Wire Wire Line
-	3000 4400 3100 4400
-Wire Wire Line
-	3000 4500 3100 4500
-Wire Wire Line
-	4200 4400 4300 4400
-Wire Wire Line
-	4200 4500 4300 4500
-Wire Wire Line
-	5600 4400 5700 4400
-Wire Wire Line
 	5600 4500 5700 4500
-Text GLabel 8700 2700 0    50   Input ~ 0
+Wire Wire Line
+	5600 4600 5700 4600
+Text GLabel 7500 2700 0    50   Input ~ 0
 AGND_U
-Text GLabel 8700 2600 0    50   Input ~ 0
+Text GLabel 7500 2600 0    50   Input ~ 0
 3.3VA_U
 Wire Wire Line
-	8200 2400 8800 2400
+	7000 2400 7600 2400
 Wire Wire Line
-	8000 2500 8800 2500
+	6800 2500 7600 2500
 Wire Wire Line
-	8700 2600 8800 2600
+	7500 2600 7600 2600
 Wire Wire Line
-	8700 2700 8800 2700
-Text GLabel 8700 3400 0    50   Input ~ 0
+	7500 2700 7600 2700
+Text GLabel 7500 3400 0    50   Input ~ 0
 AGND_V
-Text GLabel 8700 3300 0    50   Input ~ 0
+Text GLabel 7500 3300 0    50   Input ~ 0
 3.3VA_V
 Wire Wire Line
-	8700 3300 8800 3300
+	7500 3300 7600 3300
 Wire Wire Line
-	8700 3400 8800 3400
-Text GLabel 8700 4100 0    50   Input ~ 0
+	7500 3400 7600 3400
+Text GLabel 7500 4100 0    50   Input ~ 0
 AGND_W
-Text GLabel 8700 4000 0    50   Input ~ 0
+Text GLabel 7500 4000 0    50   Input ~ 0
 3.3VA_W
 Wire Wire Line
-	8700 4000 8800 4000
+	7500 4000 7600 4000
 Wire Wire Line
-	8700 4100 8800 4100
+	7500 4100 7600 4100
 Wire Wire Line
-	8000 3900 8800 3900
+	6800 3900 7600 3900
 Wire Wire Line
-	8100 3800 8800 3800
+	6900 3800 7600 3800
 Wire Wire Line
-	8150 3100 8800 3100
+	6950 3100 7600 3100
 Wire Wire Line
-	8000 3200 8800 3200
-Wire Wire Line
-	3000 3400 4300 3400
-Wire Wire Line
-	3000 3300 4300 3300
-Wire Wire Line
-	3000 3150 4300 3150
-Wire Wire Line
-	3000 3050 4300 3050
-Wire Wire Line
-	3000 2900 4300 2900
-Wire Wire Line
-	3000 2800 4300 2800
-Wire Wire Line
-	3000 2600 4300 2600
-Wire Wire Line
-	3000 2500 4300 2500
-Wire Wire Line
-	3000 2350 4300 2350
+	6800 3200 7600 3200
 Wire Wire Line
 	3000 2100 4300 2100
 Wire Wire Line
@@ -453,7 +409,7 @@ AR Path="/5C35F725/5C3E0991" Ref="J?"  Part="1"
 AR Path="/5C3E0991" Ref="J6"  Part="1" 
 F 0 "J6" V 6873 5580 50  0000 L CNN
 F 1 "Conn_01x01" V 6964 5580 50  0000 L CNN
-F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 7000 5500 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D3.0mm" H 7000 5500 50  0001 C CNN
 F 3 "~" H 7000 5500 50  0001 C CNN
 	1    7000 5500
 	0    1    1    0   
@@ -476,14 +432,12 @@ GNDPWR_A
 Text GLabel 4100 5650 3    50   Input ~ 0
 GNDPWR_A
 $Sheet
-S 3100 3500 1100 200 
+S 3100 4900 1100 200 
 U 5C3CC91A
 F0 "DcLinkVoltageSensing" 50
 F1 "DcLinkVoltageSensing.sch" 50
-F2 "AnalogOut" O L 3100 3600 50 
+F2 "AnalogOut" O L 3100 5000 50 
 $EndSheet
-Wire Wire Line
-	3100 3600 3000 3600
 $Comp
 L Connector_Generic:Conn_01x04 J1
 U 1 1 5C3DFE04
@@ -555,23 +509,23 @@ F 3 "" H 7900 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H8
+L Mechanical:MountingHole_Pad H6
 U 1 1 5C3CE918
 P 4100 6350
-F 0 "H8" H 4200 6401 50  0000 L CNN
+F 0 "H6" H 4200 6401 50  0000 L CNN
 F 1 "MountingHole_Pad" H 4200 6310 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 4100 6350 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 4100 6350 50  0001 C CNN
 F 3 "~" H 4100 6350 50  0001 C CNN
 	1    4100 6350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H7
+L Mechanical:MountingHole_Pad H5
 U 1 1 5C3CE91F
 P 3200 6350
-F 0 "H7" H 3300 6401 50  0000 L CNN
+F 0 "H5" H 3300 6401 50  0000 L CNN
 F 1 "MountingHole_Pad" H 3300 6310 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3200 6350 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 3200 6350 50  0001 C CNN
 F 3 "~" H 3200 6350 50  0001 C CNN
 	1    3200 6350
 	1    0    0    -1  
@@ -580,30 +534,68 @@ Text GLabel 3200 6450 3    50   Input ~ 0
 GNDPWR_A
 Text GLabel 4100 6450 3    50   Input ~ 0
 GNDPWR_A
-$Comp
-L Mechanical:MountingHole_Pad H6
-U 1 1 5C3D1117
-P 2300 6350
-F 0 "H6" H 2400 6401 50  0000 L CNN
-F 1 "MountingHole_Pad" H 2400 6310 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2300 6350 50  0001 C CNN
-F 3 "~" H 2300 6350 50  0001 C CNN
-	1    2300 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H5
-U 1 1 5C3D111E
-P 1400 6350
-F 0 "H5" H 1500 6401 50  0000 L CNN
-F 1 "MountingHole_Pad" H 1500 6310 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1400 6350 50  0001 C CNN
-F 3 "~" H 1400 6350 50  0001 C CNN
-	1    1400 6350
-	1    0    0    -1  
-$EndComp
-Text GLabel 1400 6450 3    50   Input ~ 0
-GNDPWR_A
-Text GLabel 2300 6450 3    50   Input ~ 0
-GNDPWR_A
+Wire Wire Line
+	6900 2100 5600 2100
+Wire Wire Line
+	6950 2000 5600 2000
+Wire Wire Line
+	7000 1900 5600 1900
+Wire Wire Line
+	4200 4500 4300 4500
+Wire Wire Line
+	4200 4600 4300 4600
+Wire Wire Line
+	4200 2400 4300 2400
+Wire Wire Line
+	4200 2500 4300 2500
+Wire Wire Line
+	4200 2600 4300 2600
+Wire Wire Line
+	4200 2700 4300 2700
+Wire Wire Line
+	4200 3100 4300 3100
+Wire Wire Line
+	4200 3200 4300 3200
+Wire Wire Line
+	4200 3300 4300 3300
+Wire Wire Line
+	4200 3400 4300 3400
+Wire Wire Line
+	4200 3800 4300 3800
+Wire Wire Line
+	4200 3900 4300 3900
+Wire Wire Line
+	4200 4000 4300 4000
+Wire Wire Line
+	4200 4100 4300 4100
+Wire Wire Line
+	3000 2350 3100 2350
+Wire Wire Line
+	3000 2500 3100 2500
+Wire Wire Line
+	3000 2600 3100 2600
+Wire Wire Line
+	3000 2800 3100 2800
+Wire Wire Line
+	3000 2900 3100 2900
+Wire Wire Line
+	3000 3050 3100 3050
+Wire Wire Line
+	3000 3150 3100 3150
+Wire Wire Line
+	3000 3300 3100 3300
+Wire Wire Line
+	3100 3400 3000 3400
+Wire Wire Line
+	3000 5000 3100 5000
+Wire Wire Line
+	3000 4600 3100 4600
+Wire Wire Line
+	3000 4500 3100 4500
+$Sheet
+S 7600 4400 1100 300 
+U 5C5A8E0C
+F0 "DcLinkCapacitors" 50
+F1 "DcLinkCapacitors.sch" 50
+$EndSheet
 $EndSCHEMATC

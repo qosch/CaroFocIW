@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 14
+Sheet 3 15
 Title ""
 Date ""
 Rev ""
@@ -33,11 +33,11 @@ Wire Wire Line
 	6000 4600 6200 4600
 Wire Wire Line
 	6000 4500 6200 4500
-Text HLabel 4400 3700 0    50   Input ~ 0
+Text HLabel 4400 3900 0    50   Input ~ 0
 CurrentU
 Text HLabel 4400 3800 0    50   Input ~ 0
 CurrentV
-Text HLabel 4400 3900 0    50   Input ~ 0
+Text HLabel 4400 3700 0    50   Input ~ 0
 CurrentW
 Wire Wire Line
 	4400 3700 4600 3700
@@ -45,17 +45,17 @@ Wire Wire Line
 	4400 3800 4600 3800
 Wire Wire Line
 	4400 3900 4600 3900
-Text HLabel 6200 2800 2    50   Output ~ 0
+Text HLabel 6200 3000 2    50   Output ~ 0
 LogicUH
 Text HLabel 6200 2900 2    50   Output ~ 0
 LogicVH
-Text HLabel 6200 3000 2    50   Output ~ 0
+Text HLabel 6200 2800 2    50   Output ~ 0
 LogicWH
-Text HLabel 6200 5000 2    50   Output ~ 0
+Text HLabel 6200 5200 2    50   Output ~ 0
 LogicUL
 Text HLabel 6200 5100 2    50   Output ~ 0
 LogicVL
-Text HLabel 6200 5200 2    50   Output ~ 0
+Text HLabel 6200 5000 2    50   Output ~ 0
 LogicWL
 Wire Wire Line
 	6000 2800 6200 2800

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 14
+Sheet 6 15
 Title ""
 Date ""
 Rev ""
@@ -25,13 +25,13 @@ Wire Wire Line
 Wire Wire Line
 	5500 3800 5500 3500
 $Comp
-L Device:C C21
+L Device:C C16
 U 1 1 5C35FBD5
 P 6200 3650
-AR Path="/5C35C464/5C35FBD5" Ref="C21"  Part="1" 
-AR Path="/5C36048B/5C35FBD5" Ref="C36"  Part="1" 
-AR Path="/5C360499/5C35FBD5" Ref="C37"  Part="1" 
-F 0 "C37" H 6315 3696 50  0000 L CNN
+AR Path="/5C35C464/5C35FBD5" Ref="C16"  Part="1" 
+AR Path="/5C36048B/5C35FBD5" Ref="C21"  Part="1" 
+AR Path="/5C360499/5C35FBD5" Ref="C22"  Part="1" 
+F 0 "C22" H 6315 3696 50  0000 L CNN
 F 1 "100n" H 6315 3605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6238 3500 50  0001 C CNN
 F 3 "~" H 6200 3650 50  0001 C CNN
