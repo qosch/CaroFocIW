@@ -530,10 +530,6 @@ F 3 "~" H 3200 6350 50  0001 C CNN
 	1    3200 6350
 	1    0    0    -1  
 $EndComp
-Text GLabel 3200 6450 3    50   Input ~ 0
-GNDPWR_A
-Text GLabel 4100 6450 3    50   Input ~ 0
-GNDPWR_A
 Wire Wire Line
 	6900 2100 5600 2100
 Wire Wire Line
@@ -598,4 +594,6 @@ U 5C5A8E0C
 F0 "DcLinkCapacitors" 50
 F1 "DcLinkCapacitors.sch" 50
 $EndSheet
+NoConn ~ 4100 6450
+NoConn ~ 3200 6450
 $EndSCHEMATC
