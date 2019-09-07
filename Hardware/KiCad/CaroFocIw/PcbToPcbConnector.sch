@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:CaroFocIw-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -371,6 +371,7 @@ F 0 "J15" H 4530 2792 50  0000 L CNN
 F 1 "Conn_01x04" H 4530 2701 50  0000 L CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical" H 4450 2800 50  0001 C CNN
 F 3 "~" H 4450 2800 50  0001 C CNN
+F 4 "M22-7130442" H 4450 2800 50  0001 C CNN "Type"
 	1    4450 2800
 	1    0    0    -1  
 $EndComp

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:CaroFocIw-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -225,28 +225,6 @@ F 3 "~" H 8900 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H2
-U 1 1 5C370EAF
-P 4100 5550
-F 0 "H2" H 4200 5601 50  0000 L CNN
-F 1 "MountingHole_Pad" H 4200 5510 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 4100 5550 50  0001 C CNN
-F 3 "~" H 4100 5550 50  0001 C CNN
-	1    4100 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H3
-U 1 1 5C370F0F
-P 5200 5550
-F 0 "H3" H 5300 5601 50  0000 L CNN
-F 1 "MountingHole_Pad" H 5300 5510 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 5200 5550 50  0001 C CNN
-F 3 "~" H 5200 5550 50  0001 C CNN
-	1    5200 5550
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5C370F3F
 P 3200 5550
@@ -255,50 +233,6 @@ F 1 "MountingHole_Pad" H 3300 5510 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 3200 5550 50  0001 C CNN
 F 3 "~" H 3200 5550 50  0001 C CNN
 	1    3200 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDPWR #PWR04
-U 1 1 5C3710BD
-P 5200 5650
-F 0 "#PWR04" H 5200 5450 50  0001 C CNN
-F 1 "GNDPWR" H 5204 5496 50  0000 C CNN
-F 2 "" H 5200 5600 50  0001 C CNN
-F 3 "" H 5200 5600 50  0001 C CNN
-	1    5200 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H4
-U 1 1 5C374988
-P 6100 5550
-F 0 "H4" H 6200 5601 50  0000 L CNN
-F 1 "MountingHole_Pad" H 6200 5510 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 6100 5550 50  0001 C CNN
-F 3 "~" H 6100 5550 50  0001 C CNN
-	1    6100 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDPWR #PWR05
-U 1 1 5C3749D8
-P 6100 5650
-F 0 "#PWR05" H 6100 5450 50  0001 C CNN
-F 1 "GNDPWR" H 6104 5496 50  0000 C CNN
-F 2 "" H 6100 5600 50  0001 C CNN
-F 3 "" H 6100 5600 50  0001 C CNN
-	1    6100 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J5
-U 1 1 5C38EA92
-P 5900 4500
-F 0 "J5" H 5980 4492 50  0000 L CNN
-F 1 "Conn_01x02" H 5980 4401 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 5900 4500 50  0001 C CNN
-F 3 "~" H 5900 4500 50  0001 C CNN
-	1    5900 4500
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -349,10 +283,6 @@ Wire Wire Line
 	3000 1600 3100 1600
 Wire Wire Line
 	3000 1700 3100 1700
-Wire Wire Line
-	5600 4500 5700 4500
-Wire Wire Line
-	5600 4600 5700 4600
 Text GLabel 7500 2700 0    50   Input ~ 0
 AGND_U
 Text GLabel 7500 2600 0    50   Input ~ 0
@@ -402,35 +332,18 @@ PCB B
 Wire Notes Line width 39
 	4950 600  4950 7700
 $Comp
-L Connector_Generic:Conn_01x01 J?
-U 1 1 5C3E0991
-P 7000 5500
-AR Path="/5C35F725/5C3E0991" Ref="J?"  Part="1" 
-AR Path="/5C3E0991" Ref="J6"  Part="1" 
-F 0 "J6" V 6873 5580 50  0000 L CNN
-F 1 "Conn_01x01" V 6964 5580 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D3.0mm" H 7000 5500 50  0001 C CNN
-F 3 "~" H 7000 5500 50  0001 C CNN
-	1    7000 5500
-	0    1    1    0   
-$EndComp
-$Comp
 L power:+BATT #PWR?
 U 1 1 5C3E0998
-P 7000 5300
+P 6400 4500
 AR Path="/5C35F725/5C3E0998" Ref="#PWR?"  Part="1" 
 AR Path="/5C3E0998" Ref="#PWR02"  Part="1" 
-F 0 "#PWR02" H 7000 5150 50  0001 C CNN
-F 1 "+BATT" H 7015 5473 50  0000 C CNN
-F 2 "" H 7000 5300 50  0001 C CNN
-F 3 "" H 7000 5300 50  0001 C CNN
-	1    7000 5300
+F 0 "#PWR02" H 6400 4350 50  0001 C CNN
+F 1 "+BATT" H 6415 4673 50  0000 C CNN
+F 2 "" H 6400 4500 50  0001 C CNN
+F 3 "" H 6400 4500 50  0001 C CNN
+	1    6400 4500
 	1    0    0    -1  
 $EndComp
-Text GLabel 3200 5650 3    50   Input ~ 0
-GNDPWR_A
-Text GLabel 4100 5650 3    50   Input ~ 0
-GNDPWR_A
 $Sheet
 S 3100 4900 1100 200 
 U 5C3CC91A
@@ -475,37 +388,36 @@ $EndComp
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 5C3F2626
-P 7400 5300
-F 0 "#FLG01" H 7400 5375 50  0001 C CNN
-F 1 "PWR_FLAG" H 7400 5474 50  0000 C CNN
-F 2 "" H 7400 5300 50  0001 C CNN
-F 3 "~" H 7400 5300 50  0001 C CNN
-	1    7400 5300
-	1    0    0    -1  
+P 6300 4600
+F 0 "#FLG01" H 6300 4675 50  0001 C CNN
+F 1 "PWR_FLAG" H 6300 4774 50  0000 C CNN
+F 2 "" H 6300 4600 50  0001 C CNN
+F 3 "~" H 6300 4600 50  0001 C CNN
+	1    6300 4600
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	7400 5300 7000 5300
-Connection ~ 7000 5300
 $Comp
 L power:PWR_FLAG #FLG02
 U 1 1 5C3F5B8E
-P 7900 5300
-F 0 "#FLG02" H 7900 5375 50  0001 C CNN
-F 1 "PWR_FLAG" H 7900 5474 50  0000 C CNN
-F 2 "" H 7900 5300 50  0001 C CNN
-F 3 "~" H 7900 5300 50  0001 C CNN
-	1    7900 5300
-	1    0    0    -1  
+P 6300 4900
+F 0 "#FLG02" H 6300 4975 50  0001 C CNN
+F 1 "PWR_FLAG" H 6300 5074 50  0000 C CNN
+F 2 "" H 6300 4900 50  0001 C CNN
+F 3 "~" H 6300 4900 50  0001 C CNN
+	1    6300 4900
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GNDPWR #PWR03
 U 1 1 5C3F5C11
-P 7900 5300
-F 0 "#PWR03" H 7900 5100 50  0001 C CNN
-F 1 "GNDPWR" H 7904 5146 50  0000 C CNN
-F 2 "" H 7900 5250 50  0001 C CNN
-F 3 "" H 7900 5250 50  0001 C CNN
-	1    7900 5300
+P 6400 5000
+F 0 "#PWR03" H 6400 4800 50  0001 C CNN
+F 1 "GNDPWR" H 6404 4846 50  0000 C CNN
+F 2 "" H 6400 4950 50  0001 C CNN
+F 3 "" H 6400 4950 50  0001 C CNN
+	1    6400 5000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -594,6 +506,104 @@ U 5C5A8E0C
 F0 "DcLinkCapacitors" 50
 F1 "DcLinkCapacitors.sch" 50
 $EndSheet
-NoConn ~ 4100 6450
-NoConn ~ 3200 6450
+$Comp
+L Connector_Generic:Conn_01x04 J23
+U 1 1 5D700708
+P 6750 4800
+F 0 "J23" H 6670 5117 50  0000 C CNN
+F 1 "Conn_01x04" H 6670 5026 50  0000 C CNN
+F 2 "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical" H 6750 4800 50  0001 C CNN
+F 3 "~" H 6750 4800 50  0001 C CNN
+	1    6750 4800
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6150 4500 6150 4700
+Wire Wire Line
+	6150 4700 6550 4700
+Wire Wire Line
+	5600 4500 6150 4500
+Wire Wire Line
+	6050 4600 6050 4800
+Wire Wire Line
+	6050 4800 6550 4800
+Wire Wire Line
+	5600 4600 6050 4600
+Wire Wire Line
+	6300 4900 6400 4900
+Wire Wire Line
+	6400 5000 6400 4900
+Connection ~ 6400 4900
+Wire Wire Line
+	6400 4900 6550 4900
+Wire Wire Line
+	6400 4500 6400 4600
+Wire Wire Line
+	6400 4600 6550 4600
+Wire Wire Line
+	6300 4600 6400 4600
+Connection ~ 6400 4600
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5C370EAF
+P 4100 5550
+F 0 "H2" H 4200 5601 50  0000 L CNN
+F 1 "MountingHole_Pad" H 4200 5510 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 4100 5550 50  0001 C CNN
+F 3 "~" H 4100 5550 50  0001 C CNN
+	1    4100 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D734AE6
+P 3200 5650
+AR Path="/5C35C260/5D734AE6" Ref="#PWR?"  Part="1" 
+AR Path="/5D734AE6" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 3200 5400 50  0001 C CNN
+F 1 "GND" H 3205 5477 50  0000 C CNN
+F 2 "" H 3200 5650 50  0001 C CNN
+F 3 "" H 3200 5650 50  0001 C CNN
+	1    3200 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D7356EB
+P 4100 5650
+AR Path="/5C35C260/5D7356EB" Ref="#PWR?"  Part="1" 
+AR Path="/5D7356EB" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 4100 5400 50  0001 C CNN
+F 1 "GND" H 4105 5477 50  0000 C CNN
+F 2 "" H 4100 5650 50  0001 C CNN
+F 3 "" H 4100 5650 50  0001 C CNN
+	1    4100 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D735A04
+P 3200 6450
+AR Path="/5C35C260/5D735A04" Ref="#PWR?"  Part="1" 
+AR Path="/5D735A04" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 3200 6200 50  0001 C CNN
+F 1 "GND" H 3205 6277 50  0000 C CNN
+F 2 "" H 3200 6450 50  0001 C CNN
+F 3 "" H 3200 6450 50  0001 C CNN
+	1    3200 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D735DAF
+P 4100 6450
+AR Path="/5C35C260/5D735DAF" Ref="#PWR?"  Part="1" 
+AR Path="/5D735DAF" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 4100 6200 50  0001 C CNN
+F 1 "GND" H 4105 6277 50  0000 C CNN
+F 2 "" H 4100 6450 50  0001 C CNN
+F 3 "" H 4100 6450 50  0001 C CNN
+	1    4100 6450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
