@@ -37,17 +37,6 @@ F 3 "~" H 4400 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C29
-U 1 1 5C5A8F88
-P 4700 2850
-F 0 "C29" H 4815 2896 50  0000 L CNN
-F 1 "C" H 4815 2805 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206" H 4738 2700 50  0001 C CNN
-F 3 "~" H 4700 2850 50  0001 C CNN
-	1    4700 2850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C30
 U 1 1 5C5A8FAA
 P 5000 2850
@@ -103,28 +92,6 @@ F 3 "~" H 6200 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C35
-U 1 1 5C5A90B2
-P 6500 2850
-F 0 "C35" H 6615 2896 50  0000 L CNN
-F 1 "C" H 6615 2805 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206" H 6538 2700 50  0001 C CNN
-F 3 "~" H 6500 2850 50  0001 C CNN
-	1    6500 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C36
-U 1 1 5C5A90D8
-P 6800 2850
-F 0 "C36" H 6915 2896 50  0000 L CNN
-F 1 "C" H 6915 2805 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206" H 6838 2700 50  0001 C CNN
-F 3 "~" H 6800 2850 50  0001 C CNN
-	1    6800 2850
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+BATT #PWR077
 U 1 1 5C5A9141
 P 4100 2600
@@ -154,11 +121,6 @@ Wire Wire Line
 	4100 3000 4400 3000
 Connection ~ 4100 3000
 Connection ~ 4400 3000
-Wire Wire Line
-	4400 3000 4700 3000
-Connection ~ 4700 3000
-Wire Wire Line
-	4700 3000 5000 3000
 Connection ~ 5000 3000
 Wire Wire Line
 	5000 3000 5300 3000
@@ -171,21 +133,10 @@ Wire Wire Line
 Connection ~ 5900 3000
 Wire Wire Line
 	5900 3000 6200 3000
-Connection ~ 6200 3000
-Wire Wire Line
-	6200 3000 6500 3000
-Connection ~ 6500 3000
-Wire Wire Line
-	6500 3000 6800 3000
 Wire Wire Line
 	4100 2700 4400 2700
 Connection ~ 4100 2700
 Connection ~ 4400 2700
-Wire Wire Line
-	4400 2700 4700 2700
-Connection ~ 4700 2700
-Wire Wire Line
-	4700 2700 5000 2700
 Connection ~ 5000 2700
 Wire Wire Line
 	5000 2700 5300 2700
@@ -198,12 +149,6 @@ Wire Wire Line
 Connection ~ 5900 2700
 Wire Wire Line
 	5900 2700 6200 2700
-Connection ~ 6200 2700
-Wire Wire Line
-	6200 2700 6500 2700
-Connection ~ 6500 2700
-Wire Wire Line
-	6500 2700 6800 2700
 $Comp
 L Device:C C37
 U 1 1 5C5A9A12
@@ -293,10 +238,6 @@ F 3 "~" H 9200 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6800 2700 7100 2700
-Connection ~ 6800 2700
-Connection ~ 7100 2700
-Wire Wire Line
 	7100 2700 7400 2700
 Connection ~ 7400 2700
 Wire Wire Line
@@ -316,10 +257,6 @@ Wire Wire Line
 Connection ~ 8900 2700
 Wire Wire Line
 	8900 2700 9200 2700
-Wire Wire Line
-	6800 3000 7100 3000
-Connection ~ 6800 3000
-Connection ~ 7100 3000
 Wire Wire Line
 	7100 3000 7400 3000
 Connection ~ 7400 3000
@@ -408,4 +345,16 @@ Wire Wire Line
 Connection ~ 10100 3000
 Wire Wire Line
 	10100 3000 10400 3000
+Wire Wire Line
+	4400 2700 5000 2700
+Wire Wire Line
+	4400 3000 5000 3000
+Connection ~ 7100 3000
+Connection ~ 7100 2700
+Connection ~ 6200 2700
+Connection ~ 6200 3000
+Wire Wire Line
+	6200 2700 7100 2700
+Wire Wire Line
+	6200 3000 7100 3000
 $EndSCHEMATC
