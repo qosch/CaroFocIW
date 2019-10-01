@@ -51,7 +51,7 @@ AR Path="/5C36048B/5C35FD40" Ref="R15"  Part="1"
 AR Path="/5C360499/5C35FD40" Ref="R16"  Part="1" 
 F 0 "R16" V 5943 4300 50  0000 C CNN
 F 1 "10k" V 6034 4300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6080 4300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6080 4300 50  0001 C CNN
 F 3 "~" H 6150 4300 50  0001 C CNN
 	1    6150 4300
 	0    1    1    0   
@@ -61,13 +61,13 @@ Wire Wire Line
 Wire Wire Line
 	6300 4300 6400 4300
 $Comp
-L Sensor_Current:ACS711xEXLT-15AB U4
+L Sensor_Current:ACS711xEXLT-15AB U5
 U 1 1 5C379FCC
 P 5500 4200
-AR Path="/5C35C464/5C379FCC" Ref="U4"  Part="1" 
-AR Path="/5C36048B/5C379FCC" Ref="U6"  Part="1" 
-AR Path="/5C360499/5C379FCC" Ref="U7"  Part="1" 
-F 0 "U7" H 5500 4778 50  0000 C CNN
+AR Path="/5C35C464/5C379FCC" Ref="U5"  Part="1" 
+AR Path="/5C36048B/5C379FCC" Ref="U7"  Part="1" 
+AR Path="/5C360499/5C379FCC" Ref="U8"  Part="1" 
+F 0 "U8" H 5500 4778 50  0000 C CNN
 F 1 "ACS711xEXLT-15AB" H 5500 4687 50  0000 C CNN
 F 2 "Sensor_Current:Allegro_QFN-12-10-1EP_3x3mm_P0.5mm" H 5850 4150 50  0001 L CIN
 F 3 "http://www.allegromicro.com/~/Media/Files/Datasheets/ACS711-Datasheet.ashx" H 5500 4200 50  0001 C CNN
