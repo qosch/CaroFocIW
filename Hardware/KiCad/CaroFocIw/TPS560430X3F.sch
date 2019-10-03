@@ -41,7 +41,7 @@ L Device:L L1
 U 1 1 5C35FC1E
 P 7050 3700
 F 0 "L1" V 6872 3700 50  0000 C CNN
-F 1 "10μ" V 6963 3700 50  0000 C CNN
+F 1 "10μ 1A" V 6963 3700 50  0000 C CNN
 F 2 "Inductor_SMD:L_Wuerth_MAPI-3015" H 7050 3700 50  0001 C CNN
 F 3 "~" H 7050 3700 50  0001 C CNN
 	1    7050 3700
@@ -63,7 +63,7 @@ L Device:D_Schottky D1
 U 1 1 5C35FE3A
 P 6600 3850
 F 0 "D1" V 6554 3929 50  0000 L CNN
-F 1 "D_Schottky" V 6645 3929 50  0000 L CNN
+F 1 "D_Schottky 1A" V 6645 3929 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123F" H 6600 3850 50  0001 C CNN
 F 3 "~" H 6600 3850 50  0001 C CNN
 	1    6600 3850
@@ -136,7 +136,7 @@ U 1 1 5C36013C
 P 4600 3650
 F 0 "C24" H 4715 3696 50  0000 L CNN
 F 1 "10μ 35V" H 4715 3605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4638 3500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 4638 3500 50  0001 C CNN
 F 3 "~" H 4600 3650 50  0001 C CNN
 	1    4600 3650
 	1    0    0    -1  
@@ -185,7 +185,7 @@ L Device:L L2
 U 1 1 5C360853
 P 8050 3700
 F 0 "L2" V 7872 3700 50  0000 C CNN
-F 1 "10μ" V 7963 3700 50  0000 C CNN
+F 1 "10μ 100mA" V 7963 3700 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" H 8050 3700 50  0001 C CNN
 F 3 "~" H 8050 3700 50  0001 C CNN
 	1    8050 3700
@@ -292,6 +292,10 @@ $EndComp
 Wire Wire Line
 	8500 4100 9100 4100
 Connection ~ 8500 4100
-Text Notes 4450 3650 2    50   ~ 0
-TODO: replace footprint by 1206
+Text Notes 5500 3000 0    50   ~ 0
+current consumption 3.3V:\nAS5047D: 15mA (max)\nSTM32F405RGT6: 117mA (max)\nTCAN332: 60mA (max normal operation), 180mA (bus fault)\n3V3A: 18.3mA\n\nSum: 210.3mA (max normal operation), 330.3mA (CAN bus fault)
+Text Notes 8500 3000 0    50   ~ 0
+current consumption 3.3VA:\n3x ACS711KEXLT-15AB-T: 3x 5.5mA = 16.5mA (max)\nSTM32F405RGT6: 1.8mA\n\nSum: 18.3mA
+Text Notes 7650 4500 0    50   ~ 0
+voltage drop over \ninductor (0.5ohm): 9mV
 $EndSCHEMATC

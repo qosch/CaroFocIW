@@ -19,7 +19,7 @@ L Device:R R17
 U 1 1 5C3CCA71
 P 5100 3150
 F 0 "R17" H 5170 3196 50  0000 L CNN
-F 1 "47k" H 5170 3105 50  0000 L CNN
+F 1 "56k" H 5170 3105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5030 3150 50  0001 C CNN
 F 3 "~" H 5100 3150 50  0001 C CNN
 	1    5100 3150
@@ -62,4 +62,6 @@ Wire Wire Line
 Connection ~ 5100 3400
 Wire Wire Line
 	5100 3400 5100 3500
+Text Notes 6150 3400 0    50   ~ 0
+outputs 3.3V for 21.78V Battery voltage
 $EndSCHEMATC
