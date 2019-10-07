@@ -472,7 +472,6 @@ NoConn ~ 4550 5000
 NoConn ~ 4550 4900
 NoConn ~ 4550 4800
 NoConn ~ 4550 4700
-NoConn ~ 4550 4600
 NoConn ~ 4550 4500
 NoConn ~ 4550 4400
 NoConn ~ 4550 4300
@@ -544,4 +543,10 @@ Text Notes 2900 3950 2    50   ~ 0
 sensitivity for ACS711KEXLT-15AB-T:\n(1/90mV/A)*(3.3V/4096bins)=\n0.00000895182 A / ADC bins
 Text Notes 8000 3900 0    50   ~ 0
 sensitivity for DC link voltage measurement:\n((10k+56k)10k)*(3.3V/4096bins) =\n0.00531738281 ADC bins / V
+Text HLabel 4300 4600 0    50   Output ~ 0
+~EncoderCs
+Wire Wire Line
+	4300 4600 4550 4600
+Text Notes 3500 4650 2    50   ~ 0
+TIM8_CH4
 $EndSCHEMATC
