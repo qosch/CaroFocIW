@@ -26,15 +26,21 @@ Power MOSFETs | 6× BSZ013NE2LS5I
 ![PCB Rendering Back](https://raw.githubusercontent.com/qosch/CaroFocIW/master/Hardware/KiCad/CaroFocIw/Documentation/PictureBack.png)
 
 ## Progress:
-- [x] Schematics finished
-- [x] Layout finished
-- [x] PCB fabricated
-- [x] PCB assembled
-- [ ] Mechanical assembly finished
-- [x] Basic functional tests done
-- [ ] Fully operational
-- [ ] Tested on vehicle
-- [ ] Long term real world testing
+* [x] Schematics finished
+* [x] Layout finished
+* [x] PCB fabricated
+* [x] PCB assembled
+* [ ] Mechanical assembly finished
+* [x] Basic functional tests done
+  * [x] Microcontroller working
+  * [x] Gate driver working
+  * [ ] Current sensors working
+  * [ ] CAN interface working
+  * [x] DC link voltage measurement working
+  * [x] Angle encoder working
+* [ ] Fully operational
+* [ ] Tested on vehicle
+* [ ] Long term real world testing
 
 Link to [Schematics](https://raw.githubusercontent.com/qosch/CaroFocIW/master/Hardware/KiCad/CaroFocIw/Documentation/Schematics.pdf)
 
