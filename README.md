@@ -46,4 +46,4 @@ Link to [Schematics](https://raw.githubusercontent.com/qosch/CaroFocIW/master/Ha
 
 Link to [Interactive BOM](http://htmlpreview.github.io/?https://github.com/qosch/CaroFocIW/blob/master/Hardware/KiCad/CaroFocIw/Documentation/BOM.html)
 
-Link to 8PCB assembly and test instructions](https://github.com/qosch/CaroFocIW/blob/master/Hardware/KiCad/CaroFocIw/Documentation/PcbAssemblyAndBasicTests.md)
+Link to [PCB assembly and test instructions](https://github.com/qosch/CaroFocIW/blob/master/Hardware/KiCad/CaroFocIw/Documentation/PcbAssemblyAndBasicTests.md)
