@@ -23,8 +23,9 @@
        1. J6: Measure capacitance between pin 1 and pin 4. Expected result: 150-250µF
 1. Apply power to the individual PCBs.
    1. PCB A: GND -> J5 Pin 1, +3.3V -> J7/J9/J11 pin 3. Set current limit to 50mA and measure supply current. If you want to be extra careful use a 10Ω series resistor. Turn up voltage slowly. With unprogrammed microcontroller suppy current should remain <20mA.
-   1. PCB A: GND -> J5 pin 1, +20V -> J5 pin 2. Set current limit to 50mA and measure supply current as well as voltage at J7/J9/J11 pin 3. Turn up voltage slowly. Voltage at J7/J9/J11 pin 3 should remain at 3.2-3.4V as soon as power supply voltage reaches 3.5V. Suppy current should remain <20mA
+   1. PCB A: GND -> J5 pin 1, +20V -> J5 pin 2. Set current limit to 100mA and measure supply current as well as voltage at J7/J9/J11 pin 3. Turn up voltage slowly. Voltage at J7/J9/J11 pin 3 should remain at 3.2-3.4V as soon as power supply voltage reaches 3.5V. Suppy current should remain <200mA
    1. PCB B: GND -> J6 pin 1 or J4 pin 1, +20V -> J6 Pin 2 or J4 pin 4. Set current limit to 50mA and measure supply current. If you want to be extra careful use a 1kΩ series resistor. Turn up voltage slowly. Suppy current should remain <20mA.
+   1. PCB B: Repeat for J8, J10, J12: GND -> pin 1, +3.3V pin 3. Set current limit to 50mA. If you want to be extra careful use a 10Ω series resistor. Turn up voltage slowly. Suppy current should remain <20mA. Measure voltage between pin 1 (GND) and pin 2. Expected voltage: half the supply voltage at pin 3.
 1. Solder in U6 using hot air, infrared or soldering iron. Manual inspection and rework. Use a continuity tester to check all pins against GND (J5 pin 1), only pin 13 should be connected. Check all pins against +3.3V (J7/J9/J11 pin 3), only pin 11 and 12 should be connected. Check that pin 1-4 do not have shorts to neighbours. Repeat "Apply power" tests with PCB A.
 1. Break apart PCB A and PCB B. The intermediate parts are not needed anymore.
 1. Assemble the inter-board-connectors. They are used a bit differently than normal and need to be modified.
