@@ -45,3 +45,5 @@ Power MOSFETs | 6× BSZ013NE2LS5I
 Link to [Schematics](https://raw.githubusercontent.com/qosch/CaroFocIW/master/Hardware/KiCad/CaroFocIw/Documentation/Schematics.pdf)
 
 Link to [Interactive BOM](http://htmlpreview.github.io/?https://github.com/qosch/CaroFocIW/blob/master/Hardware/KiCad/CaroFocIw/Documentation/BOM.html)
+
+Link to 8PCB assembly and test instructions](https://github.com/qosch/CaroFocIW/blob/master/Hardware/KiCad/CaroFocIw/Documentation/PcbAssemblyAndBasicTests.md)
