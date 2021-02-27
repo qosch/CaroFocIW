@@ -2,6 +2,8 @@
  * This file is part of the CaroFoc project.
  */
 
+#include <libopencm3/stm32/gpio.h>
+
 #define DcLinkVoltage_Pin GPIO1
 #define DcLinkVoltage_Port GPIOB
 #define SpiEncoderNSS_Pin GPIO4
