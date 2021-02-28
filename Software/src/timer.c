@@ -61,7 +61,7 @@ void timer1_setup(void) {
 	
     /* Timer 1 can't trigger ADC the way we want. We need another timer (TIM 8) synchronised
      that does the ADC triggering. Timer 1 is therfore configured as master. */
-    //timer_set_master_mode(TIM1, TIM_CR2_MMS_RESET); // or TIM_CR2_MMS_UPDATE ?
+    timer_set_master_mode(TIM1, TIM_CR2_MMS_ENABLE); // or TIM_CR2_MMS_UPDATE ?
 
     /* Enable GPIO peripheral clocks. */
     rcc_periph_clock_enable(RCC_GPIOA);
@@ -81,6 +81,10 @@ void timer1_setup(void) {
 }
 
 void timer8_setup(void) {
+    /* Timer 8 is used as ADC trigger (channel 1) and to 
+    generate a precisely synchronised chip select signal for 
+    SPI1 (angle encoder) without CPU intervention (channel 4) */
+
     /* Enable timer peripheral clock. */
     rcc_periph_clock_enable(RCC_TIM8);
 
@@ -96,11 +100,13 @@ void timer8_setup(void) {
 	timer_set_mode(TIM8, TIM_CR1_CKD_CK_INT,
 		TIM_CR1_CMS_CENTER_1, TIM_CR1_DIR_UP);
     
-    timer_slave_set_mode(TIM8, TIM_SMCR_SMS_RM);
+    timer_slave_set_mode(TIM8, TIM_SMCR_SMS_TM);
 
-    timer_set_period(TIM1, 16450);
+    timer_set_period(TIM8, 5250);
 
-    /* Selecting ITR0 connects TIM1 TRGO with TIM8 TRGI
-    timer_slave_set_trigger(TIM8, TIM_SMCR_TS_ITR0);*/
+    /* Selecting ITR0 connects TIM1 TRGO with TIM8 TRGI */
+    timer_slave_set_trigger(TIM8, TIM_SMCR_TS_ITR0);
 
+    /* Timer 8 has to be enabled by timer 1 so they run in sync. */
+    //timer_enable_counter(TIM8);
 }
