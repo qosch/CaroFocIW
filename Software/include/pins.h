@@ -8,8 +8,8 @@
 #define DcLinkVoltage_Port GPIOB
 #define SpiEncoderNSS_Pin GPIO4
 #define SpiEncoderNSS_Port GPIOA
-#define SpiEncoderNSS2_Pin GPIO4
-#define SpiEncoderNSS2_Port GPIOA
+#define SpiEncoderNSS2_Pin GPIO9
+#define SpiEncoderNSS2_Port GPIOC
 #define SpiEncoderSCK_Pin GPIO5
 #define SpiEncoderSCK_Port GPIOA
 #define SpiEncoderMISO_Pin GPIO6

@@ -8,6 +8,8 @@
 #include <gpio.h>
 #include <pins.h>
 #include <libopencm3/stm32/timer.h>
+#include <libopencm3/stm32/gpio.h>
+#include <libopencm3/stm32/rcc.h>
 
 uint32_t i = 0;
 int32_t testvar = 0;
@@ -20,28 +22,26 @@ int main(void){
     timer1_setup();
     GPIO_setup();
 
-    timer_set_oc_value(TIM1, TIM_OC1, 22);
-    timer_set_oc_value(TIM1, TIM_OC2, 2500);
-    timer_set_oc_value(TIM1, TIM_OC3, 2500);
+    timer_set_oc_value(TIM1, TIM_OC1, 220);
+    //timer_set_oc_value(TIM1, TIM_OC2, 2500);
+    //timer_set_oc_value(TIM1, TIM_OC3, 2500);
+
+    timer_set_oc_value(TIM8, TIM_OC4, 1000);
 
     while(1) {
-        tim1_val = timer_get_counter(TIM1);
-        tim8_val = timer_get_counter(TIM1);
-        testvar = timer_get_counter(TIM8) - timer_get_counter(TIM1);
+        //tim1_val = timer_get_counter(TIM1);
+        //tim8_val = timer_get_counter(TIM1);
+        //testvar = timer_get_counter(TIM8) - timer_get_counter(TIM1);
         
-        if(testvar==12 || testvar==-12) {
-            gpio_set(DcLinkVoltage_Port, DcLinkVoltage_Pin);
+        if(timer_get_counter(TIM8)>2500) {
+            gpio_set(SpiEncoderSCK_Port, SpiEncoderSCK_Pin);
         }
         else
         {
-            gpio_clear(DcLinkVoltage_Port, DcLinkVoltage_Pin);
+            gpio_clear(SpiEncoderSCK_Port, SpiEncoderSCK_Pin);
         }
         
     }
-
-    for (i = 0; i < 100000; i++) {
-			__asm__("nop");
-		}
 
     //TIM_EGR(TIM1) |= TIM_EGR_BG;
     /*
