@@ -34,11 +34,11 @@ Power MOSFETs | 6× BSZ013NE2LS5I
 * [x] Basic functional tests done
   * [x] Microcontroller working
   * [x] Gate driver working
-  * [ ] Current sensors working
-  * [ ] CAN interface working
+  * [x] Current sensors working
+  * [x] CAN interface working
   * [x] DC link voltage measurement working
   * [x] Angle encoder working
-* [ ] Fully operational
+* [x] Fully operational
 * [ ] Tested on vehicle
 * [ ] Long term real world testing
 
